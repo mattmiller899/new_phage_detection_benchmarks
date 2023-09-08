@@ -1,0 +1,10 @@
+
+EnvironmentNameNotFound: Could not find conda environment: deepvirfinder
+You can list all discoverable environments with `conda info --envs`.
+
+
+Traceback (most recent call last):
+  File "/groups/bhurwitz/tools/DeepVirFinder/dvf.py", line 15, in <module>
+    from Bio.Seq import Seq
+ModuleNotFoundError: No module named 'Bio'
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=2088524 by 8am on 2023/07/25.

@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+frag_4320_NZ_CP063354.1||rbs:common_1 -          Lig_chan-Glu_bd      PF10613.9    1.4e-13   45.0   0.1   8.5e-12   39.3   0.1   2.1   1   1   0   1   1   1   1 # 1 # 459 # -1 # ID=111_1;partial=10;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.580
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /groups/bhurwitz/databases/virsorter2/hmm/pfam/Pfam-A-Eukaryota.hmm
+# Target file:     /tmp/vs2-meVVHkqYUH7W/all.pdg.faa.0.split
+# Option settings: hmmsearch --tblout iter-0/all.pdg.faa.splitdir/all.pdg.faa.0.split.Eukaryota.splithmmtbl --noali -T 30 --cpu 2 /groups/bhurwitz/databases/virsorter2/hmm/pfam/Pfam-A-Eukaryota.hmm /tmp/vs2-meVVHkqYUH7W/all.pdg.faa.0.split 
+# Current dir:     /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_envs/virsorter2/test.out
+# Date:            Fri Jul 21 13:03:39 2023
+# [ok]

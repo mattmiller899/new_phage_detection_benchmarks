@@ -1,0 +1,495 @@
+rule all:
+    input:
+        config["out_dir"] + "/combined_out/combined.csv",
+        config["out_dir"] + "/combined_out/combined_benchmarks.csv",
+        config["out_dir"] + "/combined_out/organisms.csv",
+
+
+rule combine_preds:
+    input:
+        expand(
+            "{out_dir}/{kingdom}/{length}/{tool}_out/{tool}_pred_formatted.csv",
+            out_dir=config["out_dir"],
+            kingdom=config["kingdoms"],
+            length=config["lengths"],
+            tool=config["tools"],
+        ),
+    output:
+        config["out_dir"] + "/combined_out/combined.csv",
+    params:
+        out_dir=config["out_dir"],
+        combine=config["combine"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.combine} -o {params.out_dir}/combined_out {input}
+        """
+
+
+rule combine_benchmarks:
+    input:
+        expand(
+            config["out_dir"] + "/benchmarks/{tool}/{kingdom}_{length}_benchmark.txt",
+            tool=config["tools"],
+            kingdom=config["kingdoms"],
+            length=config["lengths"],
+        ),
+    output:
+        config["out_dir"] + "/combined_out/combined_benchmarks.csv",
+    params:
+        out_dir=config["out_dir"],
+        benchmark=config["benchmark"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.benchmark} -o {params.out_dir}/combined_out {input}
+        """
+
+rule get_organisms:
+    input:
+        config["in_dir"],
+    output:
+        config["out_dir"] + "/combined_out/organisms.csv",
+    params:
+        out_dir=config["out_dir"],
+        get_organisms=config["get_organisms"],
+    shell:
+        """
+        {params.get_organisms} {input} {params.out_dir}/combined_out
+        """
+
+
+rule pred_dmf:
+    input:
+        config["in_dir"] + "/{kingdom}/{length}/selected_frags.fasta",
+    output:
+        config["out_dir"]
+        + "/{kingdom}/{length}/dmf_out/selected_frags.fasta_pred_one-hot_hybrid.tsv",
+    params:
+        dmf=config["dmf"],
+        in_dir=config["in_dir"],
+        out_dir=config["out_dir"],
+    log:
+        "logs/dmf/{kingdom}_{length}.log",
+    benchmark:
+        config["out_dir"] + "/benchmarks/dmf/{kingdom}_{length}_benchmark.txt"
+    shell:
+        """
+        bash -c '
+            . $HOME/.bashrc
+            source activate 
+            ({params.dmf} \
+                -i {params.in_dir}/{wildcards.kingdom}/{wildcards.length}/selected_frags.fasta \
+                -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/dmf_out) 2> {log}
+        '
+        """
+
+rule reformat_dmf:
+    input:
+        config["out_dir"]
+        + "/{kingdom}/{length}/dmf_out/selected_frags.fasta_pred_one-hot_hybrid.tsv",
+    output:
+        config["out_dir"] + "/{kingdom}/{length}/dmf_out/dmf_pred_formatted.csv",
+    params:
+        out_dir=config["out_dir"],
+        reformat=config["reformat"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.reformat} \
+            -l {wildcards.length} \
+            -a {wildcards.kingdom} \
+            -t dmf \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/dmf_out \
+            {input}
+        """
+
+
+rule pred_genomad:
+    input:
+        config["in_dir"] + "/{kingdom}/{length}/selected_frags.fasta",
+    output:
+        config["out_dir"]
+        + "/{kingdom}/{length}/genomad_out/selected_frags_summary/selected_frags_virus_summary.tsv",
+    params:
+        db=config["genomad_db"],
+        in_dir=config["in_dir"],
+        out_dir=config["out_dir"],
+        splits=config["genomad_splits"],
+    log:
+        "logs/genomad/{kingdom}_{length}.log",
+    benchmark:
+        config["out_dir"] + "/benchmarks/genomad/{kingdom}_{length}_benchmark.txt"
+    shell:
+        """
+        bash -c '
+            . $HOME/.bashrc
+            source activate genomad
+            (genomad end-to-end \
+                --splits {params.splits} {params.in_dir}/{wildcards.kingdom}/{wildcards.length}/selected_frags.fasta \
+                {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/genomad_out {params.db}) 2> {log}
+        '
+        """
+
+rule reformat_genomad:
+    input:
+        config["out_dir"]
+        + "/{kingdom}/{length}/genomad_out/selected_frags_summary/selected_frags_virus_summary.tsv",
+    output:
+        config["out_dir"] + "/{kingdom}/{length}/genomad_out/genomad_pred_formatted.csv",
+    params:
+        out_dir=config["out_dir"],
+        reformat=config["reformat"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.reformat} \
+            -l {wildcards.length} \
+            -a {wildcards.kingdom} \
+            -t genomad \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/genomad_out \
+            {input}
+        """
+
+
+
+rule pred_metaphage:
+    input:
+        config["in_dir"] + "/{kingdom}/{length}/selected_frags.fasta",
+    output:
+        config["out_dir"]
+        + "/{kingdom}/{length}/metaphage_out/preds.txt",
+    params:
+        img=config["metaphage_img"],
+        in_dir=config["in_dir"],
+        out_dir=config["out_dir"],
+        conf=config["metaphage_config"],
+        metadata=config["metaphage_metadata"],
+        db=config["metaphage_database"]
+    log:
+        "logs/metaphage/{kingdom}_{length}.log",
+    benchmark:
+        config["out_dir"] + "/benchmarks/metaphage/{kingdom}_{length}_benchmark.txt"
+    shell:
+        """
+        bash -c '
+            . $HOME/.bashrc
+            (nextflow run /groups/bhurwitz/tools/MetaPhage/bin/newProject.py \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/metaphage_out \
+            -m {params.metadata} \
+            -i {{params.in_dir}/{wildcards.kingdom}/{wildcards.length}/selected_frags.fasta} \
+            -v Treatment \
+            -d {params.db} \
+            -s {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/metaphage_out/test.conf
+            
+            nextflow run /groups/bhurwitz/tools/MetaPhage/main.nf -c {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/metaphage_out/test.conf -with-singularity {params.img}) 2> {log}
+        '
+        """
+
+##FIX THIS
+rule reformat_metaphage:
+    input:
+        config["out_dir"]
+        + "/{kingdom}/{length}/metaphage_out/predicted_viruses.txt",
+    output:
+        config["out_dir"] + "/{kingdom}/{length}/metaphage_out/metaphage_pred_formatted.csv",
+    params:
+        out_dir=config["out_dir"],
+        reformat=config["reformat"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.reformat} \
+            -l {wildcards.length} \
+            -a {wildcards.kingdom} \
+            -t metaphage \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/metaphage_out \
+            {input}
+        """
+
+
+rule pred_virmine:
+    input:
+        config["in_dir"] + "/{kingdom}/{length}/selected_frags.fasta",
+    output:
+        config["out_dir"]
+        + "/{kingdom}/{length}/virmine_out/output.txt",
+    params:
+        viral_db=config["virmine_viral_db"],
+        nonviral_db=config["virmine_nonviral_db"],
+        ass=config["virmine_ass"],
+        in_dir=config["in_dir"],
+        out_dir=config["out_dir"],
+        threads=config["virmine_threads"],
+        img=config["virmine_img"],
+    log:
+        "logs/virmine/{kingdom}_{length}.log",
+    benchmark:
+        config["out_dir"] + "/benchmarks/virmine/{kingdom}_{length}_benchmark.txt"
+    shell:
+        """
+        bash -c '
+            . $HOME/.bashrc
+            (apptainer run {params.img} 
+            
+            python3 /groups/bhurwitz/tools/virmine/virMine.py \
+            -a {params.ass} \
+            -s {params.in_dir}/{wildcards.kingdom}/{wildcards.length}/selected_frags.fasta \
+            -v {params.viral_db} \
+            -nv {params.nonviral_db} \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/virmine_out
+            ) 2> {log}
+        '
+        """
+
+rule reformat_virmine:
+    input:
+        config["out_dir"]
+        + "/{kingdom}/{length}/virmine_out/predicted_viruses.txt",
+    output:
+        config["out_dir"] + "/{kingdom}/{length}/virmine_out/virmine_pred_formatted.csv",
+    params:
+        out_dir=config["out_dir"],
+        reformat=config["reformat"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.reformat} \
+            -l {wildcards.length} \
+            -a {wildcards.kingdom} \
+            -t virmine \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/virmine_out \
+            {input}
+        """
+
+
+rule pred_phamb:
+    input:
+        config["in_dir"] + "/{kingdom}/{length}/selected_frags.fasta",
+    output:
+        config["out_dir"]
+        + "/{kingdom}/{length}/phamb_out/output.txt",
+    params:
+        in_dir=config["in_dir"],
+        out_dir=config["out_dir"],
+        threads=config["phamb_ass_threads"],
+        mem=config["phamb_ass_mem"],
+        ass=config["phamb_ass"],
+        concat=config["phamb_concat"],
+        index=config["phamb_index"],
+        align=config["phamb_align"],
+        split=config["phamb_split"],
+    log:
+        "logs/phamb/{kingdom}_{length}.log",
+    benchmark:
+        config["out_dir"] + "/benchmarks/phamb/{kingdom}_{length}_benchmark.txt"
+    shell:
+        """
+        bash -c '
+            . $HOME/.bashrc
+            source activate phamb
+            (
+            {params.ass} --meta {params.in_dir}/{wildcards.kingdom}/{wildcards.length}/selected_frags.fasta \
+            -k  21,29,39,59,79,99 \
+            -t {params.threads} \
+            -m {params.mem} \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/virmine_out
+            
+            python {params.concat} {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/virmine_out/combined.fna.gz {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/virmine_out/contigs.fasta
+
+            ## FINISH THIS ONE
+            ) 2> {log}
+        '
+        """
+
+rule reformat_phamb:
+    input:
+        config["out_dir"]
+        + "/{kingdom}/{length}/phamb_out/predicted_viruses.txt",
+    output:
+        config["out_dir"] + "/{kingdom}/{length}/phamb_out/phamb_pred_formatted.csv",
+    params:
+        out_dir=config["out_dir"],
+        reformat=config["reformat"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.reformat} \
+            -l {wildcards.length} \
+            -a {wildcards.kingdom} \
+            -t phamb \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/phamb_out \
+            {input}
+        """
+
+
+
+rule pred_phamer:
+    input:
+        config["in_dir"] + "/{kingdom}/{length}/selected_frags.fasta",
+    output:
+        config["out_dir"]
+        + "/{kingdom}/{length}/phamer_out/output.txt",
+    params:
+        in_dir=config["in_dir"],
+        out_dir=config["out_dir"],
+        threads=config["phamer_threads"],
+        phamer=config["phamer"],
+        db=config["phamer_db"],
+        parameters=config["phamer_params"],
+    log:
+        "logs/phamer/{kingdom}_{length}.log",
+    benchmark:
+        config["out_dir"] + "/benchmarks/phamer/{kingdom}_{length}_benchmark.txt"
+    shell:
+        """
+        bash -c '
+            . $HOME/.bashrc
+            source activate phabox
+            (
+            {params.phamer} --contigs {params.in_dir}/{wildcards.kingdom}/{wildcards.length}/selected_frags.fasta \
+            --threads {params.threads} \
+            --len {wildcards.length} \
+            --rootpth {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/phamer_out \
+            --out out/ \
+            --dbdir {params.db} \
+            --parampth {params.parameters}
+            ) 2> {log}
+        '
+        """
+
+rule reformat_phamer:
+    input:
+        config["out_dir"]
+        + "/{kingdom}/{length}/phamer_out/predicted_viruses.txt",
+    output:
+        config["out_dir"] + "/{kingdom}/{length}/phamer_out/phamer_pred_formatted.csv",
+    params:
+        out_dir=config["out_dir"],
+        reformat=config["reformat"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.reformat} \
+            -l {wildcards.length} \
+            -a {wildcards.kingdom} \
+            -t phamer \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/phamer_out \
+            {input}
+        """
+
+
+rule pred_inherit:
+    input:
+        config["in_dir"] + "/{kingdom}/{length}/selected_frags.fasta",
+    output:
+        config["out_dir"]
+        + "/{kingdom}/{length}/inherit_out/output.txt",
+    params:
+        in_dir=config["in_dir"],
+        out_dir=config["out_dir"],
+        model=config["inherit_model"],
+        inherit=config["inherit"],
+    log:
+        "logs/inherit/{kingdom}_{length}.log",
+    benchmark:
+        config["out_dir"] + "/benchmarks/inherit/{kingdom}_{length}_benchmark.txt"
+    shell:
+        """
+        bash -c '
+            . $HOME/.bashrc
+            source activate inherit
+            (
+            {params.inherit} \
+            --sequence {params.in_dir}/{wildcards.kingdom}/{wildcards.length}/selected_frags.fasta \
+            --withpretrain True \
+            --model {params.model} \
+            --out {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/inherit_out/output.txt
+            ) 2> {log}
+        '
+        """
+
+rule reformat_inherit:
+    input:
+        config["out_dir"]
+        + "/{kingdom}/{length}/inherit_out/predicted_viruses.txt",
+    output:
+        config["out_dir"] + "/{kingdom}/{length}/inherit_out/inherit_pred_formatted.csv",
+    params:
+        out_dir=config["out_dir"],
+        reformat=config["reformat"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.reformat} \
+            -l {wildcards.length} \
+            -a {wildcards.kingdom} \
+            -t inherit \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/inherit_out \
+            {input}
+        """
+
+
+rule pred_hecatomb:
+    input:
+        config["in_dir"] + "/{kingdom}/{length}/selected_frags.fasta",
+    output:
+        config["out_dir"]
+        + "/{kingdom}/{length}/hecatomb_out/output.txt",
+    params:
+        in_dir=config["in_dir"],
+        out_dir=config["out_dir"],
+        threads=config["hecatomb_threads"],
+    log:
+        "logs/hecatomb/{kingdom}_{length}.log",
+    benchmark:
+        config["out_dir"] + "/benchmarks/hecatomb/{kingdom}_{length}_benchmark.txt"
+    shell:
+        """
+        bash -c '
+            . $HOME/.bashrc
+            source activate hecatomb
+            (
+            hecatomb run \
+            --reads {params.in_dir}/{wildcards.kingdom}/{wildcards.length}/ \
+            --preprocess paired \
+            --search sensitive \
+            --output hecatomb.out \
+            --configfile  {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/hecatomb_out/hecatomb.out/hecatomb.config.yaml \
+            --threads {params.threads} \
+            --use-conda  
+
+            ) 2> {log}
+        '
+        """
+
+rule reformat_hecatomb:
+    input:
+        config["out_dir"]
+        + "/{kingdom}/{length}/hecatomb_out/predicted_viruses.txt",
+    output:
+        config["out_dir"] + "/{kingdom}/{length}/hecatomb_out/hecatomb_pred_formatted.csv",
+    params:
+        out_dir=config["out_dir"],
+        reformat=config["reformat"],
+    shell:
+        """
+        source activate snakemake_env
+
+        {params.reformat} \
+            -l {wildcards.length} \
+            -a {wildcards.kingdom} \
+            -t hecatomb \
+            -o {params.out_dir}/{wildcards.kingdom}/{wildcards.length}/hecatomb_out \
+            {input}
+        """
+

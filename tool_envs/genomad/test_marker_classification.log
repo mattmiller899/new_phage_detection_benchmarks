@@ -1,0 +1,29 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.5.2). This will classify the    │
+│  input sequences into chromosome, plasmid, or virus based on the presence    │
+│  of geNomad markers and other gene-related features.                         │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_envs/g  │
+│    enomad/test_marker_classification                                         │
+│    ├── test_marker_classification.json (execution parameters)                │
+│    ├── test_features.tsv (sequence feature data: tabular format)             │
+│    ├── test_features.npz (sequence feature data: binary format)              │
+│    ├── test_marker_classification.tsv (sequence classification: tabular      │
+│    │   format)                                                               │
+│    └── test_marker_classification.npz (sequence classification: binary       │
+│        format)                                                               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[17:56:10] Executing genomad marker-classification.                             
+[17:56:10] Creating the                                                         
+           /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_env
+           s/genomad/test_marker_classification directory.                      
+[17:56:10] Sequence features computed.                                          
+[17:56:10] Sequence features in binary format written to test_features.npz.     
+[17:56:10] Sequence features in tabular format written to test_features.tsv.    
+[17:56:11] Sequences classified.                                                
+[17:56:11] Sequence classification in binary format written to                  
+           test_marker_classification.npz.                                      
+[17:56:11] Sequence classification in tabular format written to                 
+           test_marker_classification.tsv.                                      
+[17:56:11] geNomad marker-classification finished!                              

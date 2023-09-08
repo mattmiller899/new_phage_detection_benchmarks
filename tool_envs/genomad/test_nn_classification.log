@@ -1,0 +1,27 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.5.2). This will classify the input  │
+│  sequences into chromosome, plasmid, or virus based on the nucleotide        │
+│  sequence.                                                                   │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_envs/g  │
+│    enomad/test_nn_classification                                             │
+│    ├── test_nn_classification.json (execution parameters)                    │
+│    ├── test_encoded_sequences (directory containing encoded sequence data)   │
+│    ├── test_nn_classification.tsv (contig classification: tabular format)    │
+│    └── test_nn_classification.npz (contig classification: binary format)     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[17:56:14] Executing genomad nn-classification.                                 
+[17:56:14] Creating the                                                         
+           /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_env
+           s/genomad/test_nn_classification directory.                          
+[17:56:14] Creating the                                                         
+           /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_env
+           s/genomad/test_nn_classification/test_encoded_sequences directory.   
+[17:56:15] Encoded sequence data written to test_encoded_sequences.             
+[17:56:25] Sequences classified.                                                
+[17:56:25] Sequence classification in binary format written to                  
+           test_nn_classification.npz.                                          
+[17:56:25] Sequence classification in tabular format written to                 
+           test_nn_classification.tsv.                                          
+[17:56:25] geNomad nn-classification finished!                                  

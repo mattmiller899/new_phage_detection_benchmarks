@@ -1,0 +1,7 @@
+Config file /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/../config/config.yaml is extended by additional config specified via the command line.
+Config file /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/../config/dbFiles.yaml is extended by additional config specified via the command line.
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/envs/curl.yaml...
+Downloading and installing remote packages.
+Cancelling snakemake on user request.

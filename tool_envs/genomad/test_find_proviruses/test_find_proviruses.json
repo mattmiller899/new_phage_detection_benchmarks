@@ -1,0 +1,18 @@
+{
+    "module": "find-proviruses",
+    "input": "test.fa",
+    "input_md5": "9d53208f3e5d896628a90deade0a82ed",
+    "start_time": "2023-07-24T17:56:09.478497-07:00",
+    "parameters": {
+        "skip_integrase_identification": false,
+        "skip_trna_identification": false,
+        "crf_threshold": 0.4,
+        "marker_threshold": 12.0,
+        "marker_threshold_integrase": 8.0,
+        "marker_threshold_edge": 8.0,
+        "max_integrase_distance": 10000,
+        "max_trna_distance": 5000,
+        "sensitivity": 8.2,
+        "evalue": 0.001
+    }
+}

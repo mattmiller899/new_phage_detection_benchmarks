@@ -1,0 +1,22 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.5.2). This will find putative         │
+│  proviral regions within the input sequences.                                │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_envs/g  │
+│    enomad/test_find_proviruses                                               │
+│    ├── test_find_proviruses.json (execution parameters)                      │
+│    ├── test_provirus.tsv (provirus data)                                     │
+│    ├── test_provirus.fna (provirus nucleotide sequences)                     │
+│    ├── test_provirus_proteins.faa (provirus protein sequences)               │
+│    ├── test_provirus_genes.tsv (provirus gene annotation data)               │
+│    ├── test_provirus_taxonomy.tsv (provirus taxonomic assignment)            │
+│    ├── test_provirus_mmseqs2.tsv (MMseqs2 output file)                       │
+│    └── test_provirus_aragorn.tsv (Aragorn output file)                       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[17:56:09] Executing genomad find-proviruses.                                   
+[17:56:09] Creating the                                                         
+           /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_env
+           s/genomad/test_find_proviruses directory.                            
+[17:56:10] No potential provirus-carrying sequences were identified.            
+[17:56:10] geNomad find-proviruses finished!                                    

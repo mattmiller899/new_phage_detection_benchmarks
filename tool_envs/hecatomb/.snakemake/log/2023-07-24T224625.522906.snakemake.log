@@ -1,0 +1,3 @@
+ModuleNotFoundError in file /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/DownloadDB.smk, line 13:
+No module named 'attrmap'
+  File "/xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/DownloadDB.smk", line 13, in <module>

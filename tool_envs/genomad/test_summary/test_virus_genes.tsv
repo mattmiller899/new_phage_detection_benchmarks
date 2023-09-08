@@ -1,0 +1,29 @@
+gene	start	end	length	strand	gc_content	genetic_code	rbs_motif	marker	evalue	bitscore	uscg	plasmid_hallmark	virus_hallmark	taxid	taxname	annotation_conjscan	annotation_amr	annotation_accessions	annotation_description
+frag_46_NC_041845.1_1	3	500	498	1	0.329	11	None	GENOMAD.071442.VV	7.012e-36	135	0	0	1	2561	Caudoviricetes	NA	NA	PF10076	Bacteriophage Mu-like, Gp48
+frag_1_NC_021341.1_1	2	487	486	1	0.440	11	None	GENOMAD.059673.VV	9.843e-73	241	0	0	1	4656	Geminiviridae	NA	NA	PF01524;PF03716	Geminivirus V2 protein; WCCH motif
+frag_8_NC_055542.1_1	1	498	498	1	0.514	11	None	GENOMAD.002625.VV	1.083e-39	146	0	0	1	9164	Betaflexiviridae	NA	NA	PF00978	RNA dependent RNA polymerase
+frag_3_NC_055516.1_1	65	499	435	-1	0.418	11	None	GENOMAD.027075.VV	5.008e-47	166	0	0	1	4656	Geminiviridae	NA	NA	PF01407	Geminivirus AL3 protein
+frag_2_NC_040619.1_1	1	213	213	1	0.474	11	None	GENOMAD.028869.VV	6.63e-26	101	0	0	1	9415	Papillomaviridae	NA	NA	PF00527;K21809;TIGR04104;COG4530	E7 protein, Early protein
+frag_2_NC_040619.1_2	197	499	303	1	0.386	11	None	GENOMAD.024166.VV	2.831e-17	78	0	0	1	9415	Papillomaviridae	NA	NA	PF00524;K21810	E1 Protein, N terminal domain
+frag_4_NC_031753.1_1	1	345	345	-1	0.464	11	AAA	GENOMAD.135225.VV	1.289e-06	48	0	0	1	7220	Circoviridae	NA	NA	PF02443	Circovirus capsid protein
+frag_4_NC_001556.1_1	2	499	498	1	0.434	11	None	GENOMAD.090873.VV	1.455e-53	186	0	0	1	10399	Virgaviridae	NA	NA	PF08456	NA
+frag_1_NC_004090.1_1	137	499	363	1	0.501	11	None	GENOMAD.059673.VV	9.216e-54	184	0	0	1	4656	Geminiviridae	NA	NA	PF01524;PF03716	Geminivirus V2 protein; WCCH motif
+frag_213_NC_047736.1_1	1	498	498	-1	0.386	11	None	GENOMAD.016317.VV	2.141e-10	61	0	0	1	2561	Caudoviricetes	NA	NA	PF08804;K18946	gp32 DNA binding protein like
+frag_2_NC_025705.1_1	1	498	498	1	0.494	11	None	GENOMAD.191933.VP	4.864e-09	57	0	0	1	7220	Circoviridae	NA	NA	PF02407;PF00910;COG1618;TIGR01618;K10957	Putative viral replication protein; RNA helicase
+frag_2_NC_040362.1_1	2	499	498	1	0.564	11	None	GENOMAD.104295.VV	2.043e-11	64	0	0	1	8426	Nanoviridae	NA	NA	PF02407	Putative viral replication protein
+frag_30_NC_017980.1_1	2	445	444	-1	0.306	11	GGAG/GAGG	GENOMAD.018792.VV	2.437e-12	66	0	0	1	2561	Caudoviricetes	NA	NA	PF16838;PF11418	Caudoviral major tail protein N-terminus; Phi29 scaffolding protein
+frag_7_NC_002363.1_1	124	468	345	1	0.458	11	GGAG/GAGG	GENOMAD.226356.VP	1.52e-13	68	0	0	1	1	NA	NA	NA	PF10734	NA
+frag_12_NC_032975.1_1	2	499	498	1	0.382	11	None	GENOMAD.000025.VV	1.675e-25	105	0	0	1	6233	Potyviridae	NA	NA	PF00680	Viral RNA-dependent RNA polymerase
+frag_38_NC_005831.2_1	2	499	498	1	0.311	11	None	GENOMAD.076871.VV	2.308e-65	220	0	0	1	2272	Coronaviridae	NA	NA	PF19216;PF19219	Coronavirus replicase NSP15, middle domain; Coronavirus replicase NSP15, N-terminal oligomerisation
+frag_1_NC_026652.1_1	1	498	498	1	0.520	11	None	GENOMAD.104295.VV	1.725e-14	73	0	0	1	8426	Nanoviridae	NA	NA	PF02407	Putative viral replication protein
+frag_15_NC_048817.1_1	63	500	438	1	0.482	11	AGGAG	GENOMAD.068648.VV	7.949e-84	272	0	0	1	2561	Caudoviricetes	NA	NA	PF20441;PF03354;COG4626;TIGR01547	Phage terminase-like protein, large subunit, contains N-terminal HTH domain
+frag_16_NC_009758.1_1	1	498	498	1	0.424	11	None	GENOMAD.001966.VV	8.837e-13	68	0	0	1	2544	Picornavirales	NA	NA	PF08762	CRPV capsid protein like
+frag_4_NC_017995.1_1	3	500	498	1	0.307	11	None	GENOMAD.022351.VV	9.072e-59	201	0	0	1	9415	Papillomaviridae	NA	NA	PF20450;PF00519;PF00524;K21810;TIGR01613;COG2087	Papillomavirus E1, DNA-binding domain; Papillomavirus helicase; E1 Protein, N terminal domain
+frag_3_NC_040818.1_1	3	500	498	1	0.444	11	None	GENOMAD.022351.VV	1.666e-43	157	0	0	1	9415	Papillomaviridae	NA	NA	PF20450;PF00519;PF00524;K21810;TIGR01613;COG2087	Papillomavirus E1, DNA-binding domain; Papillomavirus helicase; E1 Protein, N terminal domain
+frag_77_NC_028927.1_1	3	317	315	-1	0.337	11	TAAAA	GENOMAD.078432.VV	1.61e-32	122	0	0	0	9067	Straboviridae	NA	NA	PF10828;TIGR03495	NA
+frag_77_NC_028927.1_2	308	499	192	-1	0.328	11	None	GENOMAD.080648.VV	2.452e-32	119	0	0	1	9067	Straboviridae	NA	NA	PF17527	Phage ALC protein
+frag_73_NC_053014.1_1	1	162	162	1	0.586	11	None	NA	NA	NA	0	0	0	1	NA	NA	NA	NA	NA
+frag_73_NC_053014.1_2	183	500	318	1	0.547	11	AGGAG	GENOMAD.055817.VV	4.658e-06	46	0	0	1	10102	Casjensviridae	NA	NA	PF05100;TIGR01600;COG5449	lambda-like phage minor tail protein L
+frag_14_NC_039230.1_1	2	499	498	1	0.474	11	None	GENOMAD.072942.VV	6.227e-46	164	0	0	1	8999	Paramyxoviridae	NA	NA	PF00423;K19247	Haemagglutinin-neuraminidase
+frag_87_NC_042333.1_1	1	420	420	-1	0.536	11	AGGAGG	GENOMAD.182445.VP	1.22e-26	107	0	0	1	2561	Caudoviricetes	NA	NA	PF17429;PF11242;TIGR00721;COG3415	Gene product 70
+frag_244_NC_055231.1_1	2	469	468	-1	0.348	11	ATATA	GENOMAD.071814.VV	1.608e-64	217	0	0	1	5678	Poxviridae	NA	NA	PF03292	Poxvirus P4B major core protein

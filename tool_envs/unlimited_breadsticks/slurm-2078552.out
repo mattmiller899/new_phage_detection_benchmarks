@@ -1,0 +1,47 @@
+[32m00000000000000000000000000
+00000000000000000000000000
+000000000[34m^^^^^^^^[32m000000000
+000000[34m^^^^^^^^^^^^^^[32m000000
+00000[34m^^^[33mUNLIMITED[34m^^^^[32m00000
+00000[34m^^[33mBREADSTICKS[34m^^^[32m00000
+00000[34m^^^^^^^^^^^^^^^^[32m00000
+000000[34m^^^^^^^^^^^^^^[32m000000
+000000000[34m^^^^^^^^[32m000000000
+00000000000000000000000000
+00000000000000000000000000(B[0m
+ 
+version 0.1.1
+@@@@@@@@@@@@@@@@@@@@@@@@@
+Your specified arguments:
+original contigs:                  /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/data/zenodo_archive/test_dataset/test.fa
+title of this run:                 testrun
+minimum circular contig length:    1000
+minimum linear contig length:      1000
+virus domain database:             virion
+min. viral hallmarks for linear:   1
+min. viral hallmarks for circular: 1
+Do Prophage Pruning?:              True
+Filter out plasmids?:              True
+Location of Cenote scripts:        /groups/bhurwitz/tools/Cenote_Unlimited_Breadsticks
+GB of memory:                      32
+number of CPUs available for run:  4
+@@@@@@@@@@@@@@@@@@@@@@@@@
+time update: locating inputs:  07-21-23---11:32:33
+renaming test.fa to test.fasta
+[35mFile with .fasta extension detected, attempting to keep contigs over 1000 nt and find circular sequences with apc.pl(B[0m
+No circular contigs detected.
+[34mNo circular fasta files detected. (B[0m
+/groups/bhurwitz/tools/Cenote_Unlimited_Breadsticks/unlimited_breadsticks_0.1.sh: line 211: 29768 Exit 1                  grep -A1 "^>" ../${original_contigs%.fasta}.over_${LENGTH_MINIMUM}nt.fasta
+     29769 Done                    | sed 's/--//g'
+     29770 Segmentation fault      (core dumped) | bioawk -v contig_cutoff="$linear_length_cutoff" -c fastx '{ if (length($seq) > contig_cutoff) { print ">"$name" "$4 ; print $seq }}' > other_contigs/all_non_circular.fasta
+removing ancillary files
+ 
+time update: Finishing  07-21-23---11:32:34
+[33moutput directory: testrun (B[0m
+[33m >>>>>>CENOTE UNLIMITED BREADSTICKS HAS FINISHED SERVING BREADSTICKS<<<<<< (B[0m
+/groups/bhurwitz/tools/Cenote_Unlimited_Breadsticks
+prodigal found
+rpsblast found
+bioawk found
+hmmscan found
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=2078552 by 8am on 2023/07/22.

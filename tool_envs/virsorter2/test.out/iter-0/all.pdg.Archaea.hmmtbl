@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /groups/bhurwitz/databases/virsorter2/hmm/pfam/Pfam-A-Archaea.hmm
+# Target file:     /tmp/vs2-b7hc5H6MNlmL/all.pdg.faa.0.split
+# Option settings: hmmsearch --tblout iter-0/all.pdg.faa.splitdir/all.pdg.faa.0.split.Archaea.splithmmtbl --noali -T 30 --cpu 2 /groups/bhurwitz/databases/virsorter2/hmm/pfam/Pfam-A-Archaea.hmm /tmp/vs2-b7hc5H6MNlmL/all.pdg.faa.0.split 
+# Current dir:     /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_envs/virsorter2/test.out
+# Date:            Fri Jul 21 13:03:42 2023
+# [ok]

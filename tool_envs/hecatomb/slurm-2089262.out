@@ -1,0 +1,140 @@
+
+    
+    ██╗  ██╗███████╗ ██████╗ █████╗ ████████╗ ██████╗ ███╗   ███╗██████╗
+    ██║  ██║██╔════╝██╔════╝██╔══██╗╚══██╔══╝██╔═══██╗████╗ ████║██╔══██╗
+    ███████║█████╗  ██║     ███████║   ██║   ██║   ██║██╔████╔██║██████╔╝
+    ██╔══██║██╔══╝  ██║     ██╔══██║   ██║   ██║   ██║██║╚██╔╝██║██╔══██╗
+    ██║  ██║███████╗╚██████╗██║  ██║   ██║   ╚██████╔╝██║ ╚═╝ ██║██████╔╝
+    ╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═════╝
+    
+[2023:07:24 22:46:24] Copying system default config to hecatomb.out/hecatomb.config.yaml
+[2023:07:24 22:46:24] Updating config file with new values
+[2023:07:24 22:46:24] Writing config file to hecatomb.out/hecatomb.config.yaml
+[2023:07:24 22:46:24] ------------------
+[2023:07:24 22:46:24] | Runtime config |
+[2023:07:24 22:46:24] ------------------
+
+args:
+  databases: null
+  log: hecatomb.out/hecatomb.log
+  output: hecatomb.out
+assembly:
+  canu: correctedErrorRate=0.16 maxInputCoverage=10000 minInputCoverage=0 corOutCoverage=10000
+    corMhapSensitivity=high corMinCoverage=0 useGrid=False stopOnLowCoverage=False
+    genomeSize=10M -nanopore
+  flye: -g 1g
+  megahit: --k-min 45 --k-max 225 --k-step 26 --min-count 2 --min-contig-len 1000
+  metaflye: --meta -g 1g --nano-raw
+mmseqs:
+  filtAAprimary: --min-length 30 -e 1e-3
+  filtAAsecondary: --min-length 30 -e 1e-5
+  filtNTprimary: --min-length 90 -e 1e-10
+  filtNTsecondary: --min-length 90 -e 1e-20
+  linclustParams: --kmer-per-seq-scale 0.3 -c 0.8 --cov-mode 1 --min-seq-id 0.97 --alignment-mode
+    3
+  perfAA: --start-sens 1 --sens-steps 3 -s 7 --lca-mode 2 --shuffle 0
+  perfAAfast: -s 4.0 --lca-mode 2 --shuffle 0
+  perfNT: --start-sens 2 -s 7 --sens-steps 3
+  perfNTfast: -s 4.0
+  taxIdIgnore: 0 1 2 10239 131567 12429 2759
+qc:
+  compression: 1
+  fastp: --qualified_quality_phred 15 --length_required 90 --cut_tail --cut_tail_window_size
+    25 --cut_tail_mean_quality 15 --dedup --dup_calc_accuracy 4 --trim_poly_x
+resources:
+  big:
+    cpu: 24
+    mem: 64000
+    time: 1440
+  med:
+    cpu: 16
+    mem: 32000
+    time: 60
+  ram:
+    cpu: 2
+    mem: 16000
+  sml:
+    time: 10
+
+[2023:07:24 22:46:24] ---------------------
+[2023:07:24 22:46:24] | Snakemake command |
+[2023:07:24 22:46:24] ---------------------
+
+snakemake -s /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/DownloadDB.smk --configfile hecatomb.out/hecatomb.config.yaml --jobs 32 --use-conda --conda-prefix /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/conda --rerun-incomplete --printshellcmds --nolock --show-failed-logs -t 14
+ModuleNotFoundError in file /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/DownloadDB.smk, line 13:
+No module named 'attrmap'
+  File "/xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/DownloadDB.smk", line 13, in <module>
+[2023:07:24 22:46:28] ERROR: Snakemake failed
+
+    
+    ██╗  ██╗███████╗ ██████╗ █████╗ ████████╗ ██████╗ ███╗   ███╗██████╗
+    ██║  ██║██╔════╝██╔════╝██╔══██╗╚══██╔══╝██╔═══██╗████╗ ████║██╔══██╗
+    ███████║█████╗  ██║     ███████║   ██║   ██║   ██║██╔████╔██║██████╔╝
+    ██╔══██║██╔══╝  ██║     ██╔══██║   ██║   ██║   ██║██║╚██╔╝██║██╔══██╗
+    ██║  ██║███████╗╚██████╗██║  ██║   ██║   ╚██████╔╝██║ ╚═╝ ██║██████╔╝
+    ╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═════╝
+    
+[2023:07:24 22:46:28] Config file hecatomb.out/hecatomb.config.yaml already exists. Using existing config file.
+[2023:07:24 22:46:28] Updating config file with new values
+[2023:07:24 22:46:28] Writing config file to hecatomb.out/hecatomb.config.yaml
+[2023:07:24 22:46:28] ------------------
+[2023:07:24 22:46:28] | Runtime config |
+[2023:07:24 22:46:28] ------------------
+
+args:
+  assembly: cross
+  databases: null
+  host: human
+  library: paired
+  log: hecatomb.out/hecatomb.log
+  output: hecatomb.out
+  reads: /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/test_data
+  search: sensitive
+assembly:
+  canu: correctedErrorRate=0.16 maxInputCoverage=10000 minInputCoverage=0 corOutCoverage=10000
+    corMhapSensitivity=high corMinCoverage=0 useGrid=False stopOnLowCoverage=False
+    genomeSize=10M -nanopore
+  flye: -g 1g
+  megahit: --k-min 45 --k-max 225 --k-step 26 --min-count 2 --min-contig-len 1000
+  metaflye: --meta -g 1g --nano-raw
+mmseqs:
+  filtAAprimary: --min-length 30 -e 1e-3
+  filtAAsecondary: --min-length 30 -e 1e-5
+  filtNTprimary: --min-length 90 -e 1e-10
+  filtNTsecondary: --min-length 90 -e 1e-20
+  linclustParams: --kmer-per-seq-scale 0.3 -c 0.8 --cov-mode 1 --min-seq-id 0.97 --alignment-mode
+    3
+  perfAA: --start-sens 1 --sens-steps 3 -s 7 --lca-mode 2 --shuffle 0
+  perfAAfast: -s 4.0 --lca-mode 2 --shuffle 0
+  perfNT: --start-sens 2 -s 7 --sens-steps 3
+  perfNTfast: -s 4.0
+  taxIdIgnore: 0 1 2 10239 131567 12429 2759
+qc:
+  compression: 1
+  fastp: --qualified_quality_phred 15 --length_required 90 --cut_tail --cut_tail_window_size
+    25 --cut_tail_mean_quality 15 --dedup --dup_calc_accuracy 4 --trim_poly_x
+resources:
+  big:
+    cpu: 24
+    mem: 64000
+    time: 1440
+  med:
+    cpu: 16
+    mem: 32000
+    time: 60
+  ram:
+    cpu: 2
+    mem: 16000
+  sml:
+    time: 10
+
+[2023:07:24 22:46:28] ---------------------
+[2023:07:24 22:46:28] | Snakemake command |
+[2023:07:24 22:46:28] ---------------------
+
+snakemake -s /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/Hecatomb.smk --configfile hecatomb.out/hecatomb.config.yaml --jobs 32 --use-conda --conda-prefix /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/conda --rerun-incomplete --printshellcmds --nolock --show-failed-logs
+ModuleNotFoundError in file /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/Hecatomb.smk, line 14:
+No module named 'attrmap'
+  File "/xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/Hecatomb.smk", line 14, in <module>
+[2023:07:24 22:46:29] ERROR: Snakemake failed
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=2089262 by 8am on 2023/07/25.

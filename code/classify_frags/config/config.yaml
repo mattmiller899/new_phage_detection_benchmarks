@@ -1,0 +1,53 @@
+in_dir: "../../data/selected_frags"
+out_dir: "../../data/classified_chopped"
+
+reformat: "python3 ../post_proc/reformat.py"
+combine: "python3 ../post_proc/combine.py"
+benchmark: "python3 ../post_proc/benchmark.py"
+get_organisms: "../post_proc/get_meta.sh"
+
+tools: ["metaphage", "genomad", "virmine", "phamb", "phamer", "dmf", "inherit", "hecatomb", "3cac"]
+
+metaphage_img: "/groups/bhurwitz/containers/metaphage_1.0.sif"
+metaphage_config: "frags.conf"
+metaphage_metadata: "frags_metadata.csv"
+metaphage_database: "/groups/bhurwitz/databases/metaphage/"
+
+genomad_db: "/groups/bhurwitz/databases/genomad/genomad_db"
+genomad_splits: 0
+
+virmine_viral_db: ""
+virmine_nonviral_db: ""
+virmine_ass: "all3"
+virmine_threads: 4
+virmine_img: "/groups/bhurwitz/containers/virmine_latest.sif"
+
+phamb_ass: "/groups/bhurwitz/tools/spades/SPAdes-3.15.5-Linux/bin/metaspades.py"
+phamb_ass_threads: 16
+phamb_ass_mem: "100gb"
+phamb_concat: "/groups/bhurwitz/tools/vamb/src/concatenate.py"
+phamb_index: ""
+phamb_align_ex: "bowtie2 -x genomeindex -U out.fq|samtools view -bS - > out.bam"
+phamb_split: "/groups/bhurwitz/tools/phamb/phamb/split_contigs.py"
+#More phamb needed
+
+phamer_threads: 8
+phamer: "python /groups/bhurwitz/tools/PhaBOX/PhaMer_single.py"
+phamer_db: "/groups/bhurwitz/tools/PhaBOX/database"
+phamer_params: "/groups/bhurwitz/tools/PhaBOX/parameters"
+
+dmf: "DeepMicroClass predict"
+
+inherit_model: "/groups/bhurwitz/tools/INHERIT/models/INHERIT.pt"
+inherit: "python3 IHT_predict.py"
+
+hecatomb_threads: 32
+
+
+3cac: ""
+
+
+kingdoms: ["archaea", "bacteria", "fungi", "viral"]
+
+lengths: [500, 1000, 3000, 5000 ]
+

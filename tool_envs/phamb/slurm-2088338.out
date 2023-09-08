@@ -1,0 +1,15 @@
+Parsing deepvirfinder
+Parsing voghmm
+Parsing micompletehmm
+Loading Model and annotation table
+Traceback (most recent call last):
+  File "/xdisk/bhurwitz/mattmiller899/miniconda3/envs/phamb/bin/run_RF.py", line 234, in <module>
+    RF_results = RF_model(rf_model_file,  genomes = viral_annotation.genomes)
+  File "/xdisk/bhurwitz/mattmiller899/miniconda3/envs/phamb/bin/run_RF.py", line 158, in __init__
+    RF_predictions = self._run_RF_model(self.RF_model,genome_order,sparse_df)
+  File "/xdisk/bhurwitz/mattmiller899/miniconda3/envs/phamb/bin/run_RF.py", line 190, in _run_RF_model
+    trained_model = joblib.load(RF_model)
+  File "/xdisk/bhurwitz/mattmiller899/miniconda3/envs/phamb/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/xdisk/bhurwitz/mattmiller899/miniconda3/envs/phamb/bin/dbs/RF_model.python39.sav'
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=2088338 by 8am on 2023/07/25.

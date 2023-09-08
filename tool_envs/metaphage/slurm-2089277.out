@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "./bin/newProject.py", line 432, in <module>
+    metaphage = Metaphage(args)
+  File "./bin/newProject.py", line 112, in __init__
+    os.mkdir(metadatadir)
+FileNotFoundError: [Errno 2] No such file or directory: '/xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/data/zenodo_archiveset/metadata'
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=2089277 by 8am on 2023/07/26.

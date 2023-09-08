@@ -1,0 +1,32 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.5.2). This will summarize the results across  │
+│  modules into a classification report.                                       │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_envs/g  │
+│    enomad/test_summary                                                       │
+│    ├── test_summary.json (execution parameters)                              │
+│    ├── test_virus_summary.tsv (virus classification summary)                 │
+│    ├── test_plasmid_summary.tsv (plasmid classification summary)             │
+│    ├── test_virus.fna (virus nucleotide FASTA file)                          │
+│    ├── test_plasmid.fna (plasmid nucleotide FASTA file)                      │
+│    ├── test_virus_proteins.faa (virus protein FASTA file)                    │
+│    ├── test_plasmid_proteins.faa (plasmid protein FASTA file)                │
+│    ├── test_virus_genes.tsv (virus gene annotation data)                     │
+│    └── test_plasmid_genes.tsv (plasmid gene annotation data)                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[17:56:25] Executing genomad summary.                                           
+[17:56:25] Creating the                                                         
+           /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/tool_env
+           s/genomad/test_summary directory.                                    
+[17:56:25] Using scores from aggregated-classification.                         
+[17:56:25] 0 plasmid(s) and 25 virus(es) were identified.                       
+[17:56:25] Nucleotide sequences were written to test_plasmid.fna and            
+           test_virus.fna.                                                      
+[17:56:25] Protein sequences were written to test_plasmid_proteins.faa and      
+           test_virus_proteins.faa.                                             
+[17:56:25] Gene annotation data was written to test_plasmid_genes.tsv and       
+           test_virus_genes.tsv.                                                
+[17:56:25] Summary files were written to test_plasmid_summary.tsv and           
+           test_virus_summary.tsv.                                              
+[17:56:25] geNomad summary finished!                                            

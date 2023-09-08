@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "PhaMer_single.py", line 11, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=2078896 by 8am on 2023/07/22.

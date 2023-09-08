@@ -1,0 +1,603 @@
+Reading Fasta at /xdisk/bhurwitz/mattmiller899/new_phage_detection_benchmarks/data/zenodo_archive/test_dataset/test.fa...
+Read Fasta entry frag_5_NC_002014.1, total 1 entries read
+Read Fasta entry frag_230_NC_027355.1, total 2 entries read
+Read Fasta entry frag_10_NC_033149.1, total 3 entries read
+Read Fasta entry frag_98_NC_054782.1, total 4 entries read
+Read Fasta entry frag_3_NC_005344.1, total 5 entries read
+Read Fasta entry frag_6_NC_025454.1, total 6 entries read
+Read Fasta entry frag_46_NC_041845.1, total 7 entries read
+Read Fasta entry frag_1_NC_052456.1, total 8 entries read
+Read Fasta entry frag_6_NC_033045.1, total 9 entries read
+Read Fasta entry frag_1_NC_021341.1, total 10 entries read
+Read Fasta entry frag_3_NC_032188.1, total 11 entries read
+Read Fasta entry frag_194_NC_055142.1, total 12 entries read
+Read Fasta entry frag_66_NC_047756.1, total 13 entries read
+Read Fasta entry frag_22_NC_038287.1, total 14 entries read
+Read Fasta entry frag_11_NC_006945.1, total 15 entries read
+Read Fasta entry frag_8_NC_055542.1, total 16 entries read
+Read Fasta entry frag_3_NC_055516.1, total 17 entries read
+Read Fasta entry frag_99_NC_052467.1, total 18 entries read
+Read Fasta entry frag_84_NC_047834.1, total 19 entries read
+Read Fasta entry frag_15_NC_033081.1, total 20 entries read
+Read Fasta entry frag_2_NC_040619.1, total 21 entries read
+Read Fasta entry frag_4_NC_031753.1, total 22 entries read
+Read Fasta entry frag_306_NC_049505.1, total 23 entries read
+Read Fasta entry frag_81_NC_022981.1, total 24 entries read
+Read Fasta entry frag_13_NC_053503.1, total 25 entries read
+Read Fasta entry frag_4_NC_001556.1, total 26 entries read
+Read Fasta entry frag_24_NC_025347.1, total 27 entries read
+Read Fasta entry frag_35_NC_040625.1, total 28 entries read
+Read Fasta entry frag_60_NC_052431.1, total 29 entries read
+Read Fasta entry frag_5_NC_033245.1, total 30 entries read
+Read Fasta entry frag_11_NC_038724.1, total 31 entries read
+Read Fasta entry frag_54_NC_031938.1, total 32 entries read
+Read Fasta entry frag_237_NC_055135.1, total 33 entries read
+Read Fasta entry frag_2_NC_033255.1, total 34 entries read
+Read Fasta entry frag_7_NC_025835.1, total 35 entries read
+Read Fasta entry frag_1_NC_004090.1, total 36 entries read
+Read Fasta entry frag_4_NC_038360.1, total 37 entries read
+Read Fasta entry frag_26_NC_053003.1, total 38 entries read
+Read Fasta entry frag_12_NC_040635.1, total 39 entries read
+Read Fasta entry frag_39_NC_024370.1, total 40 entries read
+Read Fasta entry frag_128_NC_041904.1, total 41 entries read
+Read Fasta entry frag_9_NC_049819.1, total 42 entries read
+Read Fasta entry frag_51_NC_022761.1, total 43 entries read
+Read Fasta entry frag_213_NC_047736.1, total 44 entries read
+Read Fasta entry frag_271_NC_024125.2, total 45 entries read
+Read Fasta entry frag_2_NC_025705.1, total 46 entries read
+Read Fasta entry frag_2_NC_040362.1, total 47 entries read
+Read Fasta entry frag_30_NC_017980.1, total 48 entries read
+Read Fasta entry frag_4_NC_028794.1, total 49 entries read
+Read Fasta entry frag_7_NC_002363.1, total 50 entries read
+Read Fasta entry frag_10_NC_054994.1, total 51 entries read
+Read Fasta entry frag_12_NC_032975.1, total 52 entries read
+Read Fasta entry frag_85_NC_019725.1, total 53 entries read
+Read Fasta entry frag_38_NC_005831.2, total 54 entries read
+Read Fasta entry frag_1_NC_026652.1, total 55 entries read
+Read Fasta entry frag_4_NC_034615.1, total 56 entries read
+Read Fasta entry frag_2_NC_029592.1, total 57 entries read
+Read Fasta entry frag_15_NC_048817.1, total 58 entries read
+Read Fasta entry frag_2_NC_023860.1, total 59 entries read
+Read Fasta entry frag_1_NC_055112.1, total 60 entries read
+Read Fasta entry frag_56_NC_018834.1, total 61 entries read
+Read Fasta entry frag_2_NC_018226.1, total 62 entries read
+Read Fasta entry frag_101_NC_031224.2, total 63 entries read
+Read Fasta entry frag_166_NC_048730.1, total 64 entries read
+Read Fasta entry frag_11_NC_028667.1, total 65 entries read
+Read Fasta entry frag_64_NC_015249.1, total 66 entries read
+Read Fasta entry frag_9_NC_034154.1, total 67 entries read
+Read Fasta entry frag_36_NC_007149.1, total 68 entries read
+Read Fasta entry frag_4_NC_025253.1, total 69 entries read
+Read Fasta entry frag_1_NC_030463.1, total 70 entries read
+Read Fasta entry frag_5_NC_043512.1, total 71 entries read
+Read Fasta entry frag_7_NC_027122.1, total 72 entries read
+Read Fasta entry frag_25_NC_038295.1, total 73 entries read
+Read Fasta entry frag_22_NC_041892.1, total 74 entries read
+Read Fasta entry frag_10_NC_032815.1, total 75 entries read
+Read Fasta entry frag_2_NC_004285.1, total 76 entries read
+Read Fasta entry frag_53_NC_028835.1, total 77 entries read
+Read Fasta entry frag_16_NC_009758.1, total 78 entries read
+Read Fasta entry frag_3_NC_040319.1, total 79 entries read
+Read Fasta entry frag_6_NC_043484.1, total 80 entries read
+Read Fasta entry frag_3_NC_037062.1, total 81 entries read
+Read Fasta entry frag_9_NC_003635.1, total 82 entries read
+Read Fasta entry frag_2_NC_040659.1, total 83 entries read
+Read Fasta entry frag_38_NC_030904.1, total 84 entries read
+Read Fasta entry frag_9_NC_033417.1, total 85 entries read
+Read Fasta entry frag_7_NC_032637.1, total 86 entries read
+Read Fasta entry frag_4_NC_027927.1, total 87 entries read
+Read Fasta entry frag_91_NC_047841.1, total 88 entries read
+Read Fasta entry frag_4_NC_017995.1, total 89 entries read
+Read Fasta entry frag_3_NC_040818.1, total 90 entries read
+Read Fasta entry frag_77_NC_028927.1, total 91 entries read
+Read Fasta entry frag_73_NC_053014.1, total 92 entries read
+Read Fasta entry frag_7_NC_032871.1, total 93 entries read
+Read Fasta entry frag_14_NC_039230.1, total 94 entries read
+Read Fasta entry frag_3_NC_001469.1, total 95 entries read
+Read Fasta entry frag_87_NC_042333.1, total 96 entries read
+Read Fasta entry frag_27_NC_048748.1, total 97 entries read
+Read Fasta entry frag_11_NC_032484.1, total 98 entries read
+Read Fasta entry frag_1_NC_012671.1, total 99 entries read
+Read Fasta entry frag_244_NC_055231.1, total 100 entries read
+Read Fasta entry frag_1227_NC_017042.1, total 101 entries read
+Read Fasta entry frag_2963_NZ_CP013672.1, total 102 entries read
+Read Fasta entry frag_1836_NZ_CP031685.1, total 103 entries read
+Read Fasta entry frag_347_NZ_CP026592.1, total 104 entries read
+Read Fasta entry frag_2991_NZ_CP060719.1, total 105 entries read
+Read Fasta entry frag_2903_NZ_CP027006.1, total 106 entries read
+Read Fasta entry frag_37_NZ_CP029003.1, total 107 entries read
+Read Fasta entry frag_653_NC_020300.1, total 108 entries read
+Read Fasta entry frag_93_NZ_CP045136.1, total 109 entries read
+Read Fasta entry frag_117_NZ_CP011346.1, total 110 entries read
+Read Fasta entry frag_4320_NZ_CP063354.1, total 111 entries read
+Read Fasta entry frag_6182_NZ_CP048409.1, total 112 entries read
+Read Fasta entry frag_4204_NZ_CP034565.1, total 113 entries read
+Read Fasta entry frag_5385_NZ_CP045144.1, total 114 entries read
+Read Fasta entry frag_5334_NZ_CP030063.1, total 115 entries read
+Read Fasta entry frag_7517_NZ_CP069907.1, total 116 entries read
+Read Fasta entry frag_2056_NZ_CP013338.1, total 117 entries read
+Read Fasta entry frag_10627_NZ_CP037943.1, total 118 entries read
+Read Fasta entry frag_5478_NZ_CP046045.1, total 119 entries read
+Read Fasta entry frag_28_NZ_CP017422.1, total 120 entries read
+Read Fasta entry frag_2402_NZ_CP009930.1, total 121 entries read
+Read Fasta entry frag_10301_NZ_CP045298.1, total 122 entries read
+Read Fasta entry frag_7304_NZ_CP063759.1, total 123 entries read
+Read Fasta entry frag_918_NZ_CP065956.1, total 124 entries read
+Read Fasta entry frag_3400_NZ_CP015938.1, total 125 entries read
+Read Fasta entry frag_4893_NZ_CP070501.1, total 126 entries read
+Read Fasta entry frag_1286_NZ_CP009923.1, total 127 entries read
+Read Fasta entry frag_416_NZ_CP068157.1, total 128 entries read
+Read Fasta entry frag_3209_NZ_CP071869.1, total 129 entries read
+Read Fasta entry frag_347_NZ_CP035189.1, total 130 entries read
+Read Fasta entry frag_7644_NZ_CP063003.1, total 131 entries read
+Read Fasta entry frag_4795_NZ_CP046752.1, total 132 entries read
+Read Fasta entry frag_5591_NZ_CP063708.1, total 133 entries read
+Read Fasta entry frag_3402_NZ_CP049703.1, total 134 entries read
+Read Fasta entry frag_1819_NZ_LT962938.1, total 135 entries read
+Read Fasta entry frag_1655_NZ_CP010827.1, total 136 entries read
+Read Fasta entry frag_433_NZ_CP039250.1, total 137 entries read
+Read Fasta entry frag_6483_NZ_CP017593.1, total 138 entries read
+Read Fasta entry frag_1644_NC_014212.1, total 139 entries read
+Read Fasta entry frag_4883_NC_010473.1, total 140 entries read
+Read Fasta entry frag_4067_NZ_LR134474.1, total 141 entries read
+Read Fasta entry frag_1048_NZ_CP017617.1, total 142 entries read
+Read Fasta entry frag_808_NZ_LT906440.1, total 143 entries read
+Read Fasta entry frag_6804_NC_010002.1, total 144 entries read
+Read Fasta entry frag_4332_NZ_CP064049.1, total 145 entries read
+Read Fasta entry frag_2946_NZ_CP055233.1, total 146 entries read
+Read Fasta entry frag_4263_NZ_CP009550.1, total 147 entries read
+Read Fasta entry frag_451_NC_013940.1, total 148 entries read
+Read Fasta entry frag_3676_NZ_CP056245.1, total 149 entries read
+Read Fasta entry frag_7560_NZ_CP010595.1, total 150 entries read
+Read Fasta entry frag_505_NZ_CP038849.1, total 151 entries read
+Read Fasta entry frag_7035_NZ_LS483457.1, total 152 entries read
+Read Fasta entry frag_1220_NZ_CP019306.1, total 153 entries read
+Read Fasta entry frag_736_NC_007294.1, total 154 entries read
+Read Fasta entry frag_5426_NZ_CP046749.1, total 155 entries read
+Read Fasta entry frag_19_NC_009669.1, total 156 entries read
+Read Fasta entry frag_307_NZ_CP022946.1, total 157 entries read
+Read Fasta entry frag_3439_NZ_CP019981.1, total 158 entries read
+Read Fasta entry frag_7381_NZ_CP018027.1, total 159 entries read
+Read Fasta entry frag_1913_NZ_CP043382.1, total 160 entries read
+Read Fasta entry frag_702_NZ_CP046311.1, total 161 entries read
+Read Fasta entry frag_8_NZ_CP009415.1, total 162 entries read
+Read Fasta entry frag_578_NZ_CP023970.1, total 163 entries read
+Read Fasta entry frag_2654_NZ_LR134264.1, total 164 entries read
+Read Fasta entry frag_322_NZ_CP024073.1, total 165 entries read
+Read Fasta entry frag_8138_NZ_CP009771.1, total 166 entries read
+Read Fasta entry frag_5918_NC_017171.2, total 167 entries read
+Read Fasta entry frag_6241_NZ_CP031972.1, total 168 entries read
+Read Fasta entry frag_1082_NZ_LS483508.1, total 169 entries read
+Read Fasta entry frag_4550_NZ_CP034562.1, total 170 entries read
+Read Fasta entry frag_1776_NC_008600.1, total 171 entries read
+Read Fasta entry frag_440_NZ_CP047405.1, total 172 entries read
+Read Fasta entry frag_4239_NZ_CP020562.1, total 173 entries read
+Read Fasta entry frag_6410_NZ_LT827010.1, total 174 entries read
+Read Fasta entry frag_3198_NZ_CP058566.2, total 175 entries read
+Read Fasta entry frag_1373_NZ_CP009239.1, total 176 entries read
+Read Fasta entry frag_4927_NZ_LR134201.1, total 177 entries read
+Read Fasta entry frag_10438_NZ_CP008742.1, total 178 entries read
+Read Fasta entry frag_1807_NZ_CP050124.1, total 179 entries read
+Read Fasta entry frag_799_NZ_CP039908.1, total 180 entries read
+Read Fasta entry frag_3902_NZ_CP019624.1, total 181 entries read
+Read Fasta entry frag_5374_NZ_CP022794.1, total 182 entries read
+Read Fasta entry frag_1304_NZ_CP018867.1, total 183 entries read
+Read Fasta entry frag_2121_NZ_CP021644.1, total 184 entries read
+Read Fasta entry frag_4160_NZ_CP051468.1, total 185 entries read
+Read Fasta entry frag_769_NZ_CP019323.1, total 186 entries read
+Read Fasta entry frag_1211_NZ_CP032626.1, total 187 entries read
+Read Fasta entry frag_11543_NZ_CP017149.1, total 188 entries read
+Read Fasta entry frag_4512_NC_014924.1, total 189 entries read
+Read Fasta entry frag_7011_NZ_CP047146.1, total 190 entries read
+Read Fasta entry frag_8907_NZ_CP042219.1, total 191 entries read
+Read Fasta entry frag_3937_NZ_LR890710.1, total 192 entries read
+Read Fasta entry frag_2185_NZ_CP026692.1, total 193 entries read
+Read Fasta entry frag_1231_NC_007644.1, total 194 entries read
+Read Fasta entry frag_1295_NZ_LR595897.1, total 195 entries read
+Read Fasta entry frag_1740_NZ_CP062945.1, total 196 entries read
+Read Fasta entry frag_7027_NZ_CP050762.1, total 197 entries read
+Read Fasta entry frag_2947_NZ_CP041772.1, total 198 entries read
+Read Fasta entry frag_5566_NZ_CP012013.1, total 199 entries read
+Read Fasta entry frag_846_NZ_CP022022.1, total 200 entries read
+Scoring Fasta sequence frag_5_NC_002014.1
+Scoring Fasta sequence frag_230_NC_027355.1
+Scoring Fasta sequence frag_10_NC_033149.1
+Scoring Fasta sequence frag_98_NC_054782.1
+Scoring Fasta sequence frag_3_NC_005344.1
+Scoring Fasta sequence frag_6_NC_025454.1
+Scoring Fasta sequence frag_46_NC_041845.1
+Scoring Fasta sequence frag_1_NC_052456.1
+Scoring Fasta sequence frag_6_NC_033045.1
+Scoring Fasta sequence frag_1_NC_021341.1
+Scoring Fasta sequence frag_3_NC_032188.1
+Scoring Fasta sequence frag_194_NC_055142.1
+Scoring Fasta sequence frag_66_NC_047756.1
+Scoring Fasta sequence frag_22_NC_038287.1
+Scoring Fasta sequence frag_11_NC_006945.1
+Scoring Fasta sequence frag_8_NC_055542.1
+Scoring Fasta sequence frag_3_NC_055516.1
+Scoring Fasta sequence frag_99_NC_052467.1
+Scoring Fasta sequence frag_84_NC_047834.1
+Scoring Fasta sequence frag_15_NC_033081.1
+Scoring Fasta sequence frag_2_NC_040619.1
+Scoring Fasta sequence frag_4_NC_031753.1
+Scoring Fasta sequence frag_306_NC_049505.1
+Scoring Fasta sequence frag_81_NC_022981.1
+Scoring Fasta sequence frag_13_NC_053503.1
+Scoring Fasta sequence frag_4_NC_001556.1
+Scoring Fasta sequence frag_24_NC_025347.1
+Scoring Fasta sequence frag_35_NC_040625.1
+Scoring Fasta sequence frag_60_NC_052431.1
+Scoring Fasta sequence frag_5_NC_033245.1
+Scoring Fasta sequence frag_11_NC_038724.1
+Scoring Fasta sequence frag_54_NC_031938.1
+Scoring Fasta sequence frag_237_NC_055135.1
+Scoring Fasta sequence frag_2_NC_033255.1
+Scoring Fasta sequence frag_7_NC_025835.1
+Scoring Fasta sequence frag_1_NC_004090.1
+Scoring Fasta sequence frag_4_NC_038360.1
+Scoring Fasta sequence frag_26_NC_053003.1
+Scoring Fasta sequence frag_12_NC_040635.1
+Scoring Fasta sequence frag_39_NC_024370.1
+Scoring Fasta sequence frag_128_NC_041904.1
+Scoring Fasta sequence frag_9_NC_049819.1
+Scoring Fasta sequence frag_51_NC_022761.1
+Scoring Fasta sequence frag_213_NC_047736.1
+Scoring Fasta sequence frag_271_NC_024125.2
+Scoring Fasta sequence frag_2_NC_025705.1
+Scoring Fasta sequence frag_2_NC_040362.1
+Scoring Fasta sequence frag_30_NC_017980.1
+Scoring Fasta sequence frag_4_NC_028794.1
+Scoring Fasta sequence frag_7_NC_002363.1
+Scoring Fasta sequence frag_10_NC_054994.1
+Scoring Fasta sequence frag_12_NC_032975.1
+Scoring Fasta sequence frag_85_NC_019725.1
+Scoring Fasta sequence frag_38_NC_005831.2
+Scoring Fasta sequence frag_1_NC_026652.1
+Scoring Fasta sequence frag_4_NC_034615.1
+Scoring Fasta sequence frag_2_NC_029592.1
+Scoring Fasta sequence frag_15_NC_048817.1
+Scoring Fasta sequence frag_2_NC_023860.1
+Scoring Fasta sequence frag_1_NC_055112.1
+Scoring Fasta sequence frag_56_NC_018834.1
+Scoring Fasta sequence frag_2_NC_018226.1
+Scoring Fasta sequence frag_101_NC_031224.2
+Scoring Fasta sequence frag_166_NC_048730.1
+Scoring Fasta sequence frag_11_NC_028667.1
+Scoring Fasta sequence frag_64_NC_015249.1
+Scoring Fasta sequence frag_9_NC_034154.1
+Scoring Fasta sequence frag_36_NC_007149.1
+Scoring Fasta sequence frag_4_NC_025253.1
+Scoring Fasta sequence frag_1_NC_030463.1
+Scoring Fasta sequence frag_5_NC_043512.1
+Scoring Fasta sequence frag_7_NC_027122.1
+Scoring Fasta sequence frag_25_NC_038295.1
+Scoring Fasta sequence frag_22_NC_041892.1
+Scoring Fasta sequence frag_10_NC_032815.1
+Scoring Fasta sequence frag_2_NC_004285.1
+Scoring Fasta sequence frag_53_NC_028835.1
+Scoring Fasta sequence frag_16_NC_009758.1
+Scoring Fasta sequence frag_3_NC_040319.1
+Scoring Fasta sequence frag_6_NC_043484.1
+Scoring Fasta sequence frag_3_NC_037062.1
+Scoring Fasta sequence frag_9_NC_003635.1
+Scoring Fasta sequence frag_2_NC_040659.1
+Scoring Fasta sequence frag_38_NC_030904.1
+Scoring Fasta sequence frag_9_NC_033417.1
+Scoring Fasta sequence frag_7_NC_032637.1
+Scoring Fasta sequence frag_4_NC_027927.1
+Scoring Fasta sequence frag_91_NC_047841.1
+Scoring Fasta sequence frag_4_NC_017995.1
+Scoring Fasta sequence frag_3_NC_040818.1
+Scoring Fasta sequence frag_77_NC_028927.1
+Scoring Fasta sequence frag_73_NC_053014.1
+Scoring Fasta sequence frag_7_NC_032871.1
+Scoring Fasta sequence frag_14_NC_039230.1
+Scoring Fasta sequence frag_3_NC_001469.1
+Scoring Fasta sequence frag_87_NC_042333.1
+Scoring Fasta sequence frag_27_NC_048748.1
+Scoring Fasta sequence frag_11_NC_032484.1
+Scoring Fasta sequence frag_1_NC_012671.1
+Scoring Fasta sequence frag_244_NC_055231.1
+Scoring Fasta sequence frag_1227_NC_017042.1
+Scoring Fasta sequence frag_2963_NZ_CP013672.1
+Scoring Fasta sequence frag_1836_NZ_CP031685.1
+Scoring Fasta sequence frag_347_NZ_CP026592.1
+Scoring Fasta sequence frag_2991_NZ_CP060719.1
+Scoring Fasta sequence frag_2903_NZ_CP027006.1
+Scoring Fasta sequence frag_37_NZ_CP029003.1
+Scoring Fasta sequence frag_653_NC_020300.1
+Scoring Fasta sequence frag_93_NZ_CP045136.1
+Scoring Fasta sequence frag_117_NZ_CP011346.1
+Scoring Fasta sequence frag_4320_NZ_CP063354.1
+Scoring Fasta sequence frag_6182_NZ_CP048409.1
+Scoring Fasta sequence frag_4204_NZ_CP034565.1
+Scoring Fasta sequence frag_5385_NZ_CP045144.1
+Scoring Fasta sequence frag_5334_NZ_CP030063.1
+Scoring Fasta sequence frag_7517_NZ_CP069907.1
+Scoring Fasta sequence frag_2056_NZ_CP013338.1
+Scoring Fasta sequence frag_10627_NZ_CP037943.1
+Scoring Fasta sequence frag_5478_NZ_CP046045.1
+Scoring Fasta sequence frag_28_NZ_CP017422.1
+Scoring Fasta sequence frag_2402_NZ_CP009930.1
+Scoring Fasta sequence frag_10301_NZ_CP045298.1
+Scoring Fasta sequence frag_7304_NZ_CP063759.1
+Scoring Fasta sequence frag_918_NZ_CP065956.1
+Scoring Fasta sequence frag_3400_NZ_CP015938.1
+Scoring Fasta sequence frag_4893_NZ_CP070501.1
+Scoring Fasta sequence frag_1286_NZ_CP009923.1
+Scoring Fasta sequence frag_416_NZ_CP068157.1
+Scoring Fasta sequence frag_3209_NZ_CP071869.1
+Scoring Fasta sequence frag_347_NZ_CP035189.1
+Scoring Fasta sequence frag_7644_NZ_CP063003.1
+Scoring Fasta sequence frag_4795_NZ_CP046752.1
+Scoring Fasta sequence frag_5591_NZ_CP063708.1
+Scoring Fasta sequence frag_3402_NZ_CP049703.1
+Scoring Fasta sequence frag_1819_NZ_LT962938.1
+Scoring Fasta sequence frag_1655_NZ_CP010827.1
+Scoring Fasta sequence frag_433_NZ_CP039250.1
+Scoring Fasta sequence frag_6483_NZ_CP017593.1
+Scoring Fasta sequence frag_1644_NC_014212.1
+Scoring Fasta sequence frag_4883_NC_010473.1
+Scoring Fasta sequence frag_4067_NZ_LR134474.1
+Scoring Fasta sequence frag_1048_NZ_CP017617.1
+Scoring Fasta sequence frag_808_NZ_LT906440.1
+Scoring Fasta sequence frag_6804_NC_010002.1
+Scoring Fasta sequence frag_4332_NZ_CP064049.1
+Scoring Fasta sequence frag_2946_NZ_CP055233.1
+Scoring Fasta sequence frag_4263_NZ_CP009550.1
+Scoring Fasta sequence frag_451_NC_013940.1
+Scoring Fasta sequence frag_3676_NZ_CP056245.1
+Scoring Fasta sequence frag_7560_NZ_CP010595.1
+Scoring Fasta sequence frag_505_NZ_CP038849.1
+Scoring Fasta sequence frag_7035_NZ_LS483457.1
+Scoring Fasta sequence frag_1220_NZ_CP019306.1
+Scoring Fasta sequence frag_736_NC_007294.1
+Scoring Fasta sequence frag_5426_NZ_CP046749.1
+Scoring Fasta sequence frag_19_NC_009669.1
+Scoring Fasta sequence frag_307_NZ_CP022946.1
+Scoring Fasta sequence frag_3439_NZ_CP019981.1
+Scoring Fasta sequence frag_7381_NZ_CP018027.1
+Scoring Fasta sequence frag_1913_NZ_CP043382.1
+Scoring Fasta sequence frag_702_NZ_CP046311.1
+Scoring Fasta sequence frag_8_NZ_CP009415.1
+Scoring Fasta sequence frag_578_NZ_CP023970.1
+Scoring Fasta sequence frag_2654_NZ_LR134264.1
+Scoring Fasta sequence frag_322_NZ_CP024073.1
+Scoring Fasta sequence frag_8138_NZ_CP009771.1
+Scoring Fasta sequence frag_5918_NC_017171.2
+Scoring Fasta sequence frag_6241_NZ_CP031972.1
+Scoring Fasta sequence frag_1082_NZ_LS483508.1
+Scoring Fasta sequence frag_4550_NZ_CP034562.1
+Scoring Fasta sequence frag_1776_NC_008600.1
+Scoring Fasta sequence frag_440_NZ_CP047405.1
+Scoring Fasta sequence frag_4239_NZ_CP020562.1
+Scoring Fasta sequence frag_6410_NZ_LT827010.1
+Scoring Fasta sequence frag_3198_NZ_CP058566.2
+Scoring Fasta sequence frag_1373_NZ_CP009239.1
+Scoring Fasta sequence frag_4927_NZ_LR134201.1
+Scoring Fasta sequence frag_10438_NZ_CP008742.1
+Scoring Fasta sequence frag_1807_NZ_CP050124.1
+Scoring Fasta sequence frag_799_NZ_CP039908.1
+Scoring Fasta sequence frag_3902_NZ_CP019624.1
+Scoring Fasta sequence frag_5374_NZ_CP022794.1
+Scoring Fasta sequence frag_1304_NZ_CP018867.1
+Scoring Fasta sequence frag_2121_NZ_CP021644.1
+Scoring Fasta sequence frag_4160_NZ_CP051468.1
+Scoring Fasta sequence frag_769_NZ_CP019323.1
+Scoring Fasta sequence frag_1211_NZ_CP032626.1
+Scoring Fasta sequence frag_11543_NZ_CP017149.1
+Scoring Fasta sequence frag_4512_NC_014924.1
+Scoring Fasta sequence frag_7011_NZ_CP047146.1
+Scoring Fasta sequence frag_8907_NZ_CP042219.1
+Scoring Fasta sequence frag_3937_NZ_LR890710.1
+Scoring Fasta sequence frag_2185_NZ_CP026692.1
+Scoring Fasta sequence frag_1231_NC_007644.1
+Scoring Fasta sequence frag_1295_NZ_LR595897.1
+Scoring Fasta sequence frag_1740_NZ_CP062945.1
+Scoring Fasta sequence frag_7027_NZ_CP050762.1
+Scoring Fasta sequence frag_2947_NZ_CP041772.1
+Scoring Fasta sequence frag_5566_NZ_CP012013.1
+Scoring Fasta sequence frag_846_NZ_CP022022.1
+name	prediction	score
+frag_5_NC_002014.1	Bacteria	0.24
+frag_230_NC_027355.1	Phage	0.99
+frag_10_NC_033149.1	Phage	0.99
+frag_98_NC_054782.1	Phage	0.96
+frag_3_NC_005344.1	Bacteria	0.14
+frag_6_NC_025454.1	Phage	0.89
+frag_46_NC_041845.1	Phage	0.69
+frag_1_NC_052456.1	Phage	0.97
+frag_6_NC_033045.1	Phage	0.85
+frag_1_NC_021341.1	Phage	0.78
+frag_3_NC_032188.1	Bacteria	0.19
+frag_194_NC_055142.1	Bacteria	0.33
+frag_66_NC_047756.1	Bacteria	0.24
+frag_22_NC_038287.1	Phage	0.91
+frag_11_NC_006945.1	Phage	0.82
+frag_8_NC_055542.1	Phage	0.52
+frag_3_NC_055516.1	Phage	0.91
+frag_99_NC_052467.1	Phage	0.98
+frag_84_NC_047834.1	Phage	0.96
+frag_15_NC_033081.1	Bacteria	0.15
+frag_2_NC_040619.1	Phage	0.6
+frag_4_NC_031753.1	Phage	0.51
+frag_306_NC_049505.1	Bacteria	0.45
+frag_81_NC_022981.1	Phage	0.89
+frag_13_NC_053503.1	Bacteria	0.16
+frag_4_NC_001556.1	Phage	0.9
+frag_24_NC_025347.1	Phage	0.92
+frag_35_NC_040625.1	Phage	0.85
+frag_60_NC_052431.1	Phage	0.97
+frag_5_NC_033245.1	Phage	0.9
+frag_11_NC_038724.1	Phage	0.82
+frag_54_NC_031938.1	Bacteria	0.25
+frag_237_NC_055135.1	Phage	0.77
+frag_2_NC_033255.1	Phage	0.9
+frag_7_NC_025835.1	Phage	0.83
+frag_1_NC_004090.1	Phage	0.65
+frag_4_NC_038360.1	Phage	0.91
+frag_26_NC_053003.1	Phage	0.74
+frag_12_NC_040635.1	Phage	0.94
+frag_39_NC_024370.1	Phage	0.93
+frag_128_NC_041904.1	Phage	0.91
+frag_9_NC_049819.1	Bacteria	0.29
+frag_51_NC_022761.1	Phage	0.84
+frag_213_NC_047736.1	Phage	0.97
+frag_271_NC_024125.2	Phage	0.9
+frag_2_NC_025705.1	Bacteria	0.42
+frag_2_NC_040362.1	Phage	0.67
+frag_30_NC_017980.1	Phage	0.72
+frag_4_NC_028794.1	Phage	0.96
+frag_7_NC_002363.1	Bacteria	0.43
+frag_10_NC_054994.1	Phage	0.95
+frag_12_NC_032975.1	Phage	0.87
+frag_85_NC_019725.1	Bacteria	0.39
+frag_38_NC_005831.2	Phage	0.64
+frag_1_NC_026652.1	Phage	0.89
+frag_4_NC_034615.1	Bacteria	0.3
+frag_2_NC_029592.1	Phage	0.87
+frag_15_NC_048817.1	Phage	0.98
+frag_2_NC_023860.1	Bacteria	0.42
+frag_1_NC_055112.1	Phage	0.83
+frag_56_NC_018834.1	Phage	0.99
+frag_2_NC_018226.1	Phage	0.61
+frag_101_NC_031224.2	Phage	0.95
+frag_166_NC_048730.1	Phage	0.88
+frag_11_NC_028667.1	Bacteria	0.1
+frag_64_NC_015249.1	Phage	0.86
+frag_9_NC_034154.1	Phage	0.98
+frag_36_NC_007149.1	Phage	0.98
+frag_4_NC_025253.1	Phage	0.92
+frag_1_NC_030463.1	Bacteria	0.37
+frag_5_NC_043512.1	Phage	0.96
+frag_7_NC_027122.1	Phage	0.69
+frag_25_NC_038295.1	Phage	0.99
+frag_22_NC_041892.1	Bacteria	0.1
+frag_10_NC_032815.1	Phage	0.92
+frag_2_NC_004285.1	Phage	0.76
+frag_53_NC_028835.1	Bacteria	0.43
+frag_16_NC_009758.1	Phage	0.85
+frag_3_NC_040319.1	Phage	0.83
+frag_6_NC_043484.1	Phage	0.52
+frag_3_NC_037062.1	Phage	0.89
+frag_9_NC_003635.1	Phage	0.85
+frag_2_NC_040659.1	Phage	0.9
+frag_38_NC_030904.1	Phage	0.51
+frag_9_NC_033417.1	Bacteria	0.48
+frag_7_NC_032637.1	Bacteria	0.23
+frag_4_NC_027927.1	Phage	0.65
+frag_91_NC_047841.1	Bacteria	0.24
+frag_4_NC_017995.1	Phage	0.83
+frag_3_NC_040818.1	Phage	0.55
+frag_77_NC_028927.1	Bacteria	0.33
+frag_73_NC_053014.1	Phage	0.92
+frag_7_NC_032871.1	Phage	0.51
+frag_14_NC_039230.1	Phage	0.79
+frag_3_NC_001469.1	Phage	0.97
+frag_87_NC_042333.1	Phage	0.89
+frag_27_NC_048748.1	Phage	0.96
+frag_11_NC_032484.1	Phage	0.72
+frag_1_NC_012671.1	Phage	0.65
+frag_244_NC_055231.1	Phage	0.97
+frag_1227_NC_017042.1	Phage	0.66
+frag_2963_NZ_CP013672.1	Bacteria	0.37
+frag_1836_NZ_CP031685.1	Phage	0.69
+frag_347_NZ_CP026592.1	Phage	0.97
+frag_2991_NZ_CP060719.1	Bacteria	0.09
+frag_2903_NZ_CP027006.1	Bacteria	0.09
+frag_37_NZ_CP029003.1	Bacteria	0.41
+frag_653_NC_020300.1	Bacteria	0.48
+frag_93_NZ_CP045136.1	Phage	0.82
+frag_117_NZ_CP011346.1	Bacteria	0.26
+frag_4320_NZ_CP063354.1	Bacteria	0.09
+frag_6182_NZ_CP048409.1	Bacteria	0.31
+frag_4204_NZ_CP034565.1	Phage	0.72
+frag_5385_NZ_CP045144.1	Bacteria	0.04
+frag_5334_NZ_CP030063.1	Bacteria	0.12
+frag_7517_NZ_CP069907.1	Bacteria	0.38
+frag_2056_NZ_CP013338.1	Phage	0.61
+frag_10627_NZ_CP037943.1	Bacteria	0.25
+frag_5478_NZ_CP046045.1	Bacteria	0.08
+frag_28_NZ_CP017422.1	Bacteria	0.4
+frag_2402_NZ_CP009930.1	Bacteria	0.05
+frag_10301_NZ_CP045298.1	Phage	0.8
+frag_7304_NZ_CP063759.1	Bacteria	0.07
+frag_918_NZ_CP065956.1	Bacteria	0.23
+frag_3400_NZ_CP015938.1	Bacteria	0.44
+frag_4893_NZ_CP070501.1	Bacteria	0.15
+frag_1286_NZ_CP009923.1	Phage	0.66
+frag_416_NZ_CP068157.1	Phage	0.54
+frag_3209_NZ_CP071869.1	Bacteria	0.48
+frag_347_NZ_CP035189.1	Bacteria	0.24
+frag_7644_NZ_CP063003.1	Bacteria	0.14
+frag_4795_NZ_CP046752.1	Phage	0.86
+frag_5591_NZ_CP063708.1	Bacteria	0.13
+frag_3402_NZ_CP049703.1	Bacteria	0.38
+frag_1819_NZ_LT962938.1	Bacteria	0.05
+frag_1655_NZ_CP010827.1	Phage	0.95
+frag_433_NZ_CP039250.1	Bacteria	0.03
+frag_6483_NZ_CP017593.1	Bacteria	0.02
+frag_1644_NC_014212.1	Phage	0.66
+frag_4883_NC_010473.1	Bacteria	0.21
+frag_4067_NZ_LR134474.1	Bacteria	0.38
+frag_1048_NZ_CP017617.1	Bacteria	0.1
+frag_808_NZ_LT906440.1	Bacteria	0.05
+frag_6804_NC_010002.1	Bacteria	0.02
+frag_4332_NZ_CP064049.1	Bacteria	0.32
+frag_2946_NZ_CP055233.1	Bacteria	0.26
+frag_4263_NZ_CP009550.1	Phage	0.74
+frag_451_NC_013940.1	Bacteria	0.4
+frag_3676_NZ_CP056245.1	Bacteria	0.09
+frag_7560_NZ_CP010595.1	Bacteria	0.02
+frag_505_NZ_CP038849.1	Bacteria	0.1
+frag_7035_NZ_LS483457.1	Phage	0.77
+frag_1220_NZ_CP019306.1	Phage	0.8
+frag_736_NC_007294.1	Bacteria	0.4
+frag_5426_NZ_CP046749.1	Bacteria	0.2
+frag_19_NC_009669.1	Bacteria	0.27
+frag_307_NZ_CP022946.1	Phage	0.99
+frag_3439_NZ_CP019981.1	Phage	0.93
+frag_7381_NZ_CP018027.1	Phage	0.8
+frag_1913_NZ_CP043382.1	Phage	0.61
+frag_702_NZ_CP046311.1	Bacteria	0.39
+frag_8_NZ_CP009415.1	Phage	0.76
+frag_578_NZ_CP023970.1	Bacteria	0.46
+frag_2654_NZ_LR134264.1	Phage	0.86
+frag_322_NZ_CP024073.1	Bacteria	0.06
+frag_8138_NZ_CP009771.1	Bacteria	0.04
+frag_5918_NC_017171.2	Bacteria	0.38
+frag_6241_NZ_CP031972.1	Bacteria	0.15
+frag_1082_NZ_LS483508.1	Bacteria	0.48
+frag_4550_NZ_CP034562.1	Bacteria	0.36
+frag_1776_NC_008600.1	Phage	0.69
+frag_440_NZ_CP047405.1	Bacteria	0.06
+frag_4239_NZ_CP020562.1	Bacteria	0.49
+frag_6410_NZ_LT827010.1	Bacteria	0.02
+frag_3198_NZ_CP058566.2	Bacteria	0.43
+frag_1373_NZ_CP009239.1	Phage	0.87
+frag_4927_NZ_LR134201.1	Bacteria	0.28
+frag_10438_NZ_CP008742.1	Bacteria	0.03
+frag_1807_NZ_CP050124.1	Phage	0.64
+frag_799_NZ_CP039908.1	Bacteria	0.01
+frag_3902_NZ_CP019624.1	Bacteria	0.36
+frag_5374_NZ_CP022794.1	Bacteria	0.04
+frag_1304_NZ_CP018867.1	Phage	0.78
+frag_2121_NZ_CP021644.1	Bacteria	0.31
+frag_4160_NZ_CP051468.1	Bacteria	0.03
+frag_769_NZ_CP019323.1	Phage	0.88
+frag_1211_NZ_CP032626.1	Phage	0.92
+frag_11543_NZ_CP017149.1	Bacteria	0.03
+frag_4512_NC_014924.1	Bacteria	0.34
+frag_7011_NZ_CP047146.1	Bacteria	0.46
+frag_8907_NZ_CP042219.1	Bacteria	0.05
+frag_3937_NZ_LR890710.1	Bacteria	0.04
+frag_2185_NZ_CP026692.1	Phage	0.54
+frag_1231_NC_007644.1	Bacteria	0.1
+frag_1295_NZ_LR595897.1	Bacteria	0.02
+frag_1740_NZ_CP062945.1	Bacteria	0.14
+frag_7027_NZ_CP050762.1	Bacteria	0.07
+frag_2947_NZ_CP041772.1	Bacteria	0.12
+frag_5566_NZ_CP012013.1	Bacteria	0.45
+frag_846_NZ_CP022022.1	Phage	0.83
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=2078449 by 8am on 2023/07/22.

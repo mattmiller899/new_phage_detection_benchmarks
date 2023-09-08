@@ -1,0 +1,5 @@
+Config file /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/../config/config.yaml is extended by additional config specified via the command line.
+Config file /xdisk/bhurwitz/mattmiller899/miniconda3/envs/hecatomb/lib/python3.10/site-packages/hecatomb/snakemake/workflow/../config/dbFiles.yaml is extended by additional config specified via the command line.
+Building DAG of jobs...
+MissingRuleException:
+No rule to produce 14 (if you use input functions make sure that they don't raise unexpected exceptions).

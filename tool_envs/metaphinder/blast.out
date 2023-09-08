@@ -1,0 +1,1422 @@
+# BLASTN 2.9.0+
+# Query: frag_5_NC_002014.1 Fragment 5 of NC_002014.1 Enterobacteria phage Ike, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+frag_5_NC_002014.1	NC_002014	100.000	500	0	0	1	500	2001	2500	0.0	902
+frag_5_NC_002014.1	NC_001332	96.008	501	18	2	1	500	4894	5393	0.0	807
+frag_5_NC_002014.1	NC_015279	82.979	47	7	1	85	130	46663	46709	4.82e-04	46.4
+frag_5_NC_002014.1	JF713456	96.296	27	0	1	30	55	26126	26152	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_230_NC_027355.1 Fragment 230 of NC_027355.1 Bacillus phage BCP8-2, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 8 hits found
+frag_230_NC_027355.1	NC_024137	92.176	409	30	2	91	499	106798	106392	6.65e-167	587
+frag_230_NC_027355.1	NC_024137	80.000	45	9	0	5	49	106907	106863	0.021	41.9
+frag_230_NC_027355.1	NC_020873	81.951	410	73	1	91	500	79162	79570	1.57e-111	403
+frag_230_NC_027355.1	NC_020873	80.000	55	11	0	5	59	79106	79160	3.96e-05	50.9
+frag_230_NC_027355.1	JN797798	70.297	505	129	11	5	500	74084	74576	8.15e-52	205
+frag_230_NC_027355.1	NC_024205	72.000	100	24	3	373	470	113037	112940	0.002	45.5
+frag_230_NC_027355.1	NC_018856	72.000	100	24	3	373	470	88035	87938	0.002	45.5
+frag_230_NC_027355.1	KC330681	92.593	27	2	0	80	106	9154	9128	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_10_NC_033149.1 Fragment 10 of NC_033149.1 Sanxia tombus-like virus 9 strain SXXX37849 hypothetical protein 1, hypothetical protein 2, and hypothetical protein 3 genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_98_NC_054782.1 Fragment 98 of NC_054782.1 Mycobacterium phage Koko, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 33 hits found
+frag_98_NC_054782.1	6666666.3713	99.799	498	1	0	3	500	47873	48370	0.0	894
+frag_98_NC_054782.1	NC_022965	99.400	500	3	0	1	500	48166	48665	0.0	889
+frag_98_NC_054782.1	6666666.3755	89.400	500	53	0	1	500	47031	47530	0.0	664
+frag_98_NC_054782.1	KF017927	73.431	478	108	9	1	467	48515	48984	2.84e-70	267
+frag_98_NC_054782.1	NC_008203	73.474	475	113	8	1	467	48169	48638	9.92e-70	265
+frag_98_NC_054782.1	NC_022058	71.670	473	125	5	1	467	48090	48559	4.81e-61	235
+frag_98_NC_054782.1	NC_001335	79.524	210	39	3	258	467	48105	48310	3.95e-43	176
+frag_98_NC_054782.1	NC_001335	76.119	67	14	2	27	92	47892	47957	0.006	42.8
+frag_98_NC_054782.1	NC_023607	77.561	205	39	3	292	491	49627	49829	3.70e-37	156
+frag_98_NC_054782.1	NC_011023	76.636	214	46	2	286	497	49365	49576	3.70e-37	156
+frag_98_NC_054782.1	NC_023707	70.120	251	58	9	263	500	49462	49708	4.51e-17	90.6
+frag_98_NC_054782.1	NC_023553	70.796	226	56	7	283	500	49164	49387	1.58e-16	88.7
+frag_98_NC_054782.1	NC_023606	71.200	250	48	14	261	500	49593	49828	5.50e-16	86.0
+frag_98_NC_054782.1	6666666.3740	87.302	63	8	0	438	500	47865	47927	8.16e-14	78.8
+frag_98_NC_054782.1	NC_023731	87.719	57	7	0	444	500	49950	50006	1.21e-11	72.5
+frag_98_NC_054782.1	6666666.3789	68.715	179	41	3	337	500	47444	47622	1.21e-11	71.6
+frag_98_NC_054782.1	NC_023564	68.508	181	56	1	131	311	49380	49559	5.15e-10	67.1
+frag_98_NC_054782.1	KM197169	83.333	60	10	0	441	500	49017	49076	1.80e-09	64.4
+frag_98_NC_054782.1	KM197169	69.231	130	36	3	275	401	48843	48971	0.002	45.5
+frag_98_NC_054782.1	6666666.3839	67.273	220	64	4	281	493	49625	49843	6.27e-09	62.6
+frag_98_NC_054782.1	JQ512844	87.037	54	5	2	448	500	47935	47987	7.64e-08	59.9
+frag_98_NC_054782.1	6666666.13472	79.365	63	13	0	438	500	48210	48272	9.31e-07	56.3
+frag_98_NC_054782.1	NC_023716	79.310	58	12	0	442	499	49271	49328	1.13e-05	51.8
+frag_98_NC_054782.1	NC_020876	77.778	63	14	0	438	500	49478	49540	1.13e-05	51.8
+frag_98_NC_054782.1	NC_023609	83.333	54	7	2	448	500	43706	43758	3.96e-05	50.9
+frag_98_NC_054782.1	NC_016650	68.687	198	34	12	294	474	39625	39811	3.96e-05	50.0
+frag_98_NC_054782.1	NC_001900	91.176	34	3	0	452	485	45681	45714	1.38e-04	49.1
+frag_98_NC_054782.1	NC_024148	79.245	53	11	0	448	500	46906	46958	4.82e-04	47.3
+frag_98_NC_054782.1	6666666.3841	79.245	53	11	0	448	500	44385	44437	4.82e-04	47.3
+frag_98_NC_054782.1	NC_021307	81.481	54	8	2	448	500	47001	47053	4.82e-04	46.4
+frag_98_NC_054782.1	NC_021864	96.296	27	1	0	460	486	1725	1699	0.002	45.5
+frag_98_NC_054782.1	JX307704	77.358	53	12	0	448	500	47646	47698	0.006	42.8
+frag_98_NC_054782.1	JF957058	84.211	38	6	0	448	485	47674	47711	0.006	42.8
+# BLASTN 2.9.0+
+# Query: frag_3_NC_005344.1 Fragment 3 of NC_005344.1 Enterobacteria phage Sf6, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+frag_3_NC_005344.1	NC_005344	100.000	500	0	0	1	500	1001	1500	0.0	902
+frag_3_NC_005344.1	CP000711	97.000	500	15	0	1	500	21687	21188	0.0	835
+frag_3_NC_005344.1	NC_002730	96.200	500	19	0	1	500	20681	21180	0.0	817
+frag_3_NC_005344.1	NC_009015	78.125	64	14	0	58	121	71673	71610	3.25e-06	53.6
+# BLASTN 2.9.0+
+# Query: frag_6_NC_025454.1 Fragment 6 of NC_025454.1 Ralstonia phage RS603 DNA, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_6_NC_025454.1	AB981170	79.134	508	90	8	1	500	2737	3236	7.12e-116	417
+frag_6_NC_025454.1	NC_008575	71.579	95	27	0	1	95	2904	2998	3.96e-05	50.9
+frag_6_NC_025454.1	NC_021862	85.714	42	6	0	1	42	2909	2950	3.96e-05	50.0
+# BLASTN 2.9.0+
+# Query: frag_46_NC_041845.1 Fragment 46 of NC_041845.1 Flavobacterium phage FCV-1, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_46_NC_041845.1	6666666.43257	66.506	415	123	10	90	496	23602	24008	1.29e-17	92.4
+frag_46_NC_041845.1	NC_015569	80.851	47	7	1	404	448	22541	22495	0.006	42.8
+# BLASTN 2.9.0+
+# Query: frag_1_NC_052456.1 Fragment 1 of NC_052456.1 Mycobacterium phage Rajelicia, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 38 hits found
+frag_1_NC_052456.1	6666666.13470	98.600	500	5	2	1	500	1	498	0.0	864
+frag_1_NC_052456.1	6666666.3812	98.400	500	7	1	1	500	1	499	0.0	863
+frag_1_NC_052456.1	6666666.3787	98.000	500	9	1	1	500	1	499	0.0	854
+frag_1_NC_052456.1	6666666.3862	97.800	500	10	1	1	500	1	499	0.0	849
+frag_1_NC_052456.1	6666666.3757	97.800	500	10	1	1	500	1	499	0.0	849
+frag_1_NC_052456.1	NC_023710	97.000	500	14	1	1	500	1	499	0.0	831
+frag_1_NC_052456.1	6666666.3798	96.400	500	16	2	1	500	1	498	0.0	814
+frag_1_NC_052456.1	6666666.3715	96.400	500	16	2	1	500	1	498	0.0	814
+frag_1_NC_052456.1	JQ698665	95.808	501	17	4	1	500	1	498	0.0	795
+frag_1_NC_052456.1	NC_022062	95.427	503	16	6	1	500	1	499	0.0	783
+frag_1_NC_052456.1	NC_023687	95.210	501	20	4	1	500	1	498	0.0	782
+frag_1_NC_052456.1	NC_009878	93.663	505	21	7	1	500	1	499	0.0	746
+frag_1_NC_052456.1	NC_021324	93.491	507	20	8	1	500	53369	52869	0.0	742
+frag_1_NC_052456.1	NC_011021	92.885	506	26	6	1	500	1	502	0.0	733
+frag_1_NC_052456.1	JX307705	93.083	506	23	8	1	500	1	500	0.0	730
+frag_1_NC_052456.1	NC_024143	93.097	507	22	9	1	500	1	501	0.0	728
+frag_1_NC_052456.1	6666666.3853	92.871	505	24	8	1	500	1	498	0.0	724
+frag_1_NC_052456.1	NC_024368	92.885	506	23	9	1	500	1	499	0.0	722
+frag_1_NC_052456.1	NC_024136	92.490	506	26	8	1	500	1	500	0.0	717
+frag_1_NC_052456.1	NC_022070	92.490	506	26	8	1	500	1	500	0.0	717
+frag_1_NC_052456.1	NC_011019	92.490	506	26	8	1	500	1	500	0.0	717
+frag_1_NC_052456.1	NC_023862	91.440	514	23	8	1	500	1	507	0.0	712
+frag_1_NC_052456.1	NC_022324	91.440	514	23	8	1	500	1	507	0.0	712
+frag_1_NC_052456.1	NC_022324	100.000	23	0	0	79	101	52208	52186	0.006	42.8
+frag_1_NC_052456.1	NC_022979	92.079	505	29	7	1	500	1	499	0.0	710
+frag_1_NC_052456.1	NC_023726	92.095	506	27	9	1	500	1	499	0.0	704
+frag_1_NC_052456.1	6666666.3712	92.095	506	27	9	1	500	1	499	0.0	704
+frag_1_NC_052456.1	6666666.3878	90.856	514	26	8	1	500	1	507	0.0	699
+frag_1_NC_052456.1	NC_011020	90.661	514	27	8	1	500	1	507	0.0	694
+frag_1_NC_052456.1	NC_022975	91.304	506	32	8	1	500	1	500	0.0	690
+frag_1_NC_052456.1	6666666.3802	90.909	506	34	8	1	500	1	500	0.0	681
+frag_1_NC_052456.1	NC_002656	90.711	506	35	8	1	500	1	500	0.0	676
+frag_1_NC_052456.1	6666666.3811	90.514	506	35	9	1	500	1	499	0.0	668
+frag_1_NC_052456.1	NC_011267	89.130	506	43	8	1	500	1	500	0.0	640
+frag_1_NC_052456.1	6666666.3797	88.155	515	39	9	1	500	1	508	0.0	634
+frag_1_NC_052456.1	NC_023564	75.410	61	15	0	13	73	13	73	0.006	43.7
+frag_1_NC_052456.1	NC_011023	82.000	50	7	2	13	61	13	61	0.006	43.7
+frag_1_NC_052456.1	6666666.3839	86.111	36	5	0	1	36	1	36	0.006	43.7
+# BLASTN 2.9.0+
+# Query: frag_6_NC_033045.1 Fragment 6 of NC_033045.1 Hubei picorna-like virus 62 strain spider133936 hypothetical protein gene, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1_NC_021341.1 Fragment 1 of NC_021341.1 Tomato yellow leaf curl Yunnan virus isolate YN2013 clone 10 segment DNA-A, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3_NC_032188.1 Fragment 3 of NC_032188.1 Hubei sobemo-like virus 36 strain spider124913 hypothetical protein 1 and hypothetical protein 2 genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_194_NC_055142.1 Fragment 194 of NC_055142.1 Lymphocryptovirus Macaca/pfe-lcl-E3, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_66_NC_047756.1 Fragment 66 of NC_047756.1 Caulobacter phage Sansa, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_22_NC_038287.1 Fragment 22 of NC_038287.1 Radi virus nucleoprotein, phosphoprotein, matrix, glycoprotein, and polymerase genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_11_NC_006945.1 Fragment 11 of NC_006945.1 Bacillus phage GIL16c, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+frag_11_NC_006945.1	NC_006945	100.000	500	0	0	1	500	5001	5500	0.0	902
+frag_11_NC_006945.1	AJ536073	80.637	408	59	6	109	500	5253	5656	9.27e-102	371
+frag_11_NC_006945.1	NC_022094	77.622	286	58	3	62	347	2131	2410	3.70e-56	220
+frag_11_NC_006945.1	NC_011523	74.540	326	61	8	30	348	5223	5533	1.21e-49	198
+frag_11_NC_006945.1	NC_011048	92.857	28	2	0	288	315	10912	10939	0.006	42.8
+# BLASTN 2.9.0+
+# Query: frag_8_NC_055542.1 Fragment 8 of NC_055542.1 Ambrosia asymptomatic virus 1 isolate 05TGP00321 putative RNA-dependent RNA polymerase, putative triple gene block protein 1, putative triple gene block protein 2, putative triple gene block protein 3, putative coat protein, and putative nucleic acid binding protein genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3_NC_055516.1 Fragment 3 of NC_055516.1 Pepper yellow leaf curl Aceh virus DNA, segment DNA-A, complete sequence, isolate: PepYLCAV-BAPep-V2
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_3_NC_055516.1	NC_017978	93.548	31	2	0	312	342	18071	18041	1.38e-04	48.2
+# BLASTN 2.9.0+
+# Query: frag_99_NC_052467.1 Fragment 99 of NC_052467.1 Mycobacterium phage STLscum, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 33 hits found
+frag_99_NC_052467.1	NC_011021	99.000	500	5	0	1	500	48201	48700	0.0	880
+frag_99_NC_052467.1	NC_024136	98.400	500	8	0	1	500	47152	47651	0.0	866
+frag_99_NC_052467.1	6666666.3757	98.400	500	8	0	1	500	46885	47384	0.0	866
+frag_99_NC_052467.1	6666666.13470	90.099	202	20	0	119	320	48692	48893	5.48e-73	275
+frag_99_NC_052467.1	6666666.13470	94.595	111	6	0	1	111	48403	48513	1.38e-42	174
+frag_99_NC_052467.1	NC_011020	96.396	111	4	0	1	111	46526	46636	2.66e-45	183
+frag_99_NC_052467.1	NC_011020	95.960	99	4	0	1	99	48144	48242	8.71e-39	161
+frag_99_NC_052467.1	NC_024368	96.330	109	4	0	3	111	48292	48400	3.24e-44	179
+frag_99_NC_052467.1	NC_023726	95.495	111	5	0	1	111	49127	49237	1.13e-43	178
+frag_99_NC_052467.1	NC_022324	95.495	111	5	0	1	111	50114	50224	1.13e-43	178
+frag_99_NC_052467.1	NC_022070	95.495	111	5	0	1	111	50213	50323	1.13e-43	178
+frag_99_NC_052467.1	NC_021324	95.495	111	5	0	1	111	4445	4335	1.13e-43	178
+frag_99_NC_052467.1	NC_011019	95.495	111	5	0	1	111	49360	49470	1.13e-43	178
+frag_99_NC_052467.1	JX307705	95.495	111	5	0	1	111	45504	45614	1.13e-43	178
+frag_99_NC_052467.1	6666666.3862	95.495	111	5	0	1	111	48456	48566	1.13e-43	178
+frag_99_NC_052467.1	6666666.3811	95.495	111	5	0	1	111	47591	47701	1.13e-43	178
+frag_99_NC_052467.1	6666666.3798	95.495	111	5	0	1	111	48609	48719	1.13e-43	178
+frag_99_NC_052467.1	6666666.3787	95.495	111	5	0	1	111	48906	49016	1.13e-43	178
+frag_99_NC_052467.1	NC_024143	94.595	111	6	0	1	111	50101	50211	1.38e-42	174
+frag_99_NC_052467.1	NC_011267	94.595	111	6	0	1	111	46199	46309	1.38e-42	174
+frag_99_NC_052467.1	NC_002656	94.595	111	6	0	1	111	46316	46426	1.38e-42	174
+frag_99_NC_052467.1	6666666.3878	94.595	111	6	0	1	111	49662	49772	1.38e-42	174
+frag_99_NC_052467.1	6666666.3712	94.595	111	6	0	1	111	47644	47754	1.38e-42	174
+frag_99_NC_052467.1	NC_022975	95.370	108	5	0	3	110	48418	48525	4.82e-42	173
+frag_99_NC_052467.1	6666666.3715	93.694	111	7	0	1	111	49855	49965	5.87e-41	169
+frag_99_NC_052467.1	NC_023862	93.636	110	7	0	1	110	48235	48344	2.05e-40	168
+frag_99_NC_052467.1	NC_023687	93.636	110	7	0	1	110	48287	48396	2.05e-40	168
+frag_99_NC_052467.1	NC_022979	96.907	97	3	0	3	99	48465	48561	8.71e-39	162
+frag_99_NC_052467.1	6666666.3812	95.960	99	4	0	1	99	48520	48618	8.71e-39	161
+frag_99_NC_052467.1	6666666.3802	91.892	111	9	0	1	111	46407	46517	3.04e-38	160
+frag_99_NC_052467.1	6666666.3853	93.939	99	6	0	1	99	48028	48126	4.51e-36	152
+frag_99_NC_052467.1	6666666.3797	92.929	99	7	0	1	99	47209	47307	1.92e-34	148
+frag_99_NC_052467.1	NC_004680	75.127	197	47	2	106	301	26105	25910	1.80e-28	128
+# BLASTN 2.9.0+
+# Query: frag_84_NC_047834.1 Fragment 84 of NC_047834.1 Alteromonas virus vB_AspP-H4/4, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_84_NC_047834.1	AP013479	90.244	41	4	0	2	42	24426	24466	2.67e-07	57.2
+frag_84_NC_047834.1	NC_013021	80.769	52	9	1	82	132	45304	45355	4.82e-04	46.4
+# BLASTN 2.9.0+
+# Query: frag_15_NC_033081.1 Fragment 15 of NC_033081.1 Chicken calicivirus strain RS/BR/2015, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2_NC_040619.1 Fragment 2 of NC_040619.1 Gammapapillomavirus sp. isolate Gamma_LCOSOc196, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4_NC_031753.1 Fragment 4 of NC_031753.1 Porcine circovirus 3 strain 29160, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_306_NC_049505.1 Fragment 306 of NC_049505.1 Salmonella phage barely, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 9 hits found
+frag_306_NC_049505.1	NC_024122	99.600	500	2	0	1	500	77981	78480	0.0	893
+frag_306_NC_049505.1	NC_016073	98.600	500	7	0	1	500	142508	142009	0.0	871
+frag_306_NC_049505.1	NC_019452	98.400	500	8	0	1	500	141362	140863	0.0	866
+frag_306_NC_049505.1	NC_019530	97.400	500	13	0	1	500	142467	141968	0.0	844
+frag_306_NC_049505.1	NC_023856	97.200	500	14	0	1	500	92292	92791	0.0	839
+frag_306_NC_049505.1	JX128257	89.022	501	51	3	2	500	71975	72473	0.0	646
+frag_306_NC_049505.1	NC_022768	88.623	501	53	3	2	500	16241	16739	0.0	637
+frag_306_NC_049505.1	NC_022343	72.908	251	68	0	200	450	80993	81243	1.92e-34	147
+frag_306_NC_049505.1	KJ716335	68.166	289	92	0	167	455	112623	112335	1.68e-22	107
+# BLASTN 2.9.0+
+# Query: frag_81_NC_022981.1 Fragment 81 of NC_022981.1 Mycobacterium phage HufflyPuff, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+frag_81_NC_022981.1	6666666.3763	99.800	500	1	0	1	500	38556	39055	0.0	898
+frag_81_NC_022981.1	6666666.17469	99.600	500	2	0	1	500	38636	39135	0.0	893
+frag_81_NC_022981.1	JN412590	99.200	500	4	0	1	500	39318	39817	0.0	884
+frag_81_NC_022981.1	6666666.3709	95.800	500	3	1	1	500	38515	38996	0.0	820
+# BLASTN 2.9.0+
+# Query: frag_13_NC_053503.1 Fragment 13 of NC_053503.1 Mycobacterium phage Laurie, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 9 hits found
+frag_13_NC_053503.1	1076630.3	98.996	498	4	1	1	498	6001	6497	0.0	873
+frag_13_NC_053503.1	1076630.3	88.660	97	7	4	376	472	19001	19093	1.38e-23	112
+frag_13_NC_053503.1	1076630.3	76.852	108	20	4	364	470	61259	61362	4.23e-11	69.8
+frag_13_NC_053503.1	1076630.3	75.949	79	14	4	373	451	66291	66364	0.002	44.6
+frag_13_NC_053503.1	NC_024135	67.407	270	84	2	55	323	39650	39916	5.50e-16	86.0
+frag_13_NC_053503.1	NC_023604	66.960	227	59	8	104	323	41075	40858	3.96e-05	50.9
+frag_13_NC_053503.1	JN831653	68.800	125	37	1	107	231	55034	54912	1.38e-04	48.2
+frag_13_NC_053503.1	6666666.3781	67.401	227	61	10	102	323	40059	39841	0.006	43.7
+frag_13_NC_053503.1	NC_019408	87.879	33	4	0	223	255	114848	114880	0.006	42.8
+# BLASTN 2.9.0+
+# Query: frag_4_NC_001556.1 Fragment 4 of NC_001556.1 Tobacco mild green mosaic virus, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_24_NC_025347.1 Fragment 24 of NC_025347.1 Avian paramyxovirus 7 strain APMV-7/dove/Tennessee/4/75, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_35_NC_040625.1 Fragment 35 of NC_040625.1 Rhynchobatus djiddensis adomavirus 1 isolate UGA1, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_35_NC_040625.1	NC_021788	100.000	22	0	0	201	222	21459	21480	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_60_NC_052431.1 Fragment 60 of NC_052431.1 Mycobacterium phage GageAP, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 42 hits found
+frag_60_NC_052431.1	NC_022975	97.791	498	10	1	1	498	28705	29201	0.0	846
+frag_60_NC_052431.1	NC_002656	97.576	330	7	1	170	498	29391	29720	1.13e-157	556
+frag_60_NC_052431.1	NC_002656	100.000	23	0	0	364	386	50033	50011	0.006	42.8
+frag_60_NC_052431.1	6666666.3797	97.576	330	7	1	170	498	29102	29431	1.13e-157	556
+frag_60_NC_052431.1	NC_023726	97.546	326	6	2	174	498	29389	29713	2.04e-154	545
+frag_60_NC_052431.1	JX307705	96.667	330	10	1	170	498	29690	30019	2.48e-153	543
+frag_60_NC_052431.1	6666666.3853	96.667	330	10	1	170	498	29427	29756	2.48e-153	543
+frag_60_NC_052431.1	6666666.3712	96.667	330	10	1	170	498	30167	30496	2.48e-153	543
+frag_60_NC_052431.1	JQ698665	95.562	338	14	1	162	498	29802	30139	3.02e-152	539
+frag_60_NC_052431.1	NC_021324	96.364	330	11	1	170	498	22985	22656	3.02e-152	538
+frag_60_NC_052431.1	6666666.3802	96.364	330	11	1	170	498	29215	29544	3.02e-152	538
+frag_60_NC_052431.1	6666666.3862	95.252	337	16	0	162	498	29830	30166	1.05e-151	536
+frag_60_NC_052431.1	6666666.3787	95.770	331	14	0	168	498	29769	30099	3.68e-151	535
+frag_60_NC_052431.1	NC_024143	96.061	330	12	1	170	498	28940	29269	1.29e-150	534
+frag_60_NC_052431.1	NC_023687	96.061	330	12	1	170	498	29258	29587	1.29e-150	534
+frag_60_NC_052431.1	NC_022062	96.061	330	12	1	170	498	30271	30600	1.29e-150	534
+frag_60_NC_052431.1	NC_022324	94.955	337	17	0	162	498	29592	29928	4.49e-150	532
+frag_60_NC_052431.1	6666666.3757	96.626	326	9	2	174	498	29618	29942	4.49e-150	532
+frag_60_NC_052431.1	NC_024136	95.758	330	13	1	170	498	29333	29662	1.57e-149	529
+frag_60_NC_052431.1	6666666.3715	94.659	337	18	0	162	498	29771	30107	5.46e-149	527
+frag_60_NC_052431.1	NC_011019	96.012	326	11	2	174	498	30405	30729	2.32e-147	523
+frag_60_NC_052431.1	6666666.3798	94.864	331	17	0	168	498	29631	29961	8.11e-147	521
+frag_60_NC_052431.1	6666666.3811	94.065	337	20	0	162	498	29023	29359	2.83e-146	518
+frag_60_NC_052431.1	NC_009878	94.848	330	16	1	170	498	30067	30396	3.45e-145	516
+frag_60_NC_052431.1	NC_011267	93.769	337	21	0	162	498	29611	29947	1.20e-144	514
+frag_60_NC_052431.1	6666666.3878	95.077	325	15	1	174	498	29834	30157	4.20e-144	511
+frag_60_NC_052431.1	NC_011021	94.242	330	18	1	170	498	29330	29659	1.79e-142	507
+frag_60_NC_052431.1	NC_011020	94.242	330	18	1	170	498	29139	29468	1.79e-142	507
+frag_60_NC_052431.1	6666666.3812	94.242	330	18	1	170	498	29374	29703	1.79e-142	507
+frag_60_NC_052431.1	NC_024368	94.154	325	18	1	174	498	29538	29861	9.25e-140	498
+frag_60_NC_052431.1	NC_023710	93.353	331	21	1	168	498	29092	29421	3.23e-139	495
+frag_60_NC_052431.1	6666666.13470	93.538	325	19	2	174	498	29098	29420	5.84e-136	485
+frag_60_NC_052431.1	NC_022979	92.447	331	24	1	168	498	30007	30336	7.11e-135	481
+frag_60_NC_052431.1	NC_022070	92.145	331	25	1	168	498	29749	30078	8.67e-134	477
+frag_60_NC_052431.1	NC_023862	88.312	231	27	0	270	500	29932	30162	5.86e-79	296
+frag_60_NC_052431.1	NC_023862	90.000	100	10	0	168	267	29777	29876	3.47e-31	136
+frag_60_NC_052431.1	NC_021307	71.667	240	60	3	231	462	23813	24052	2.67e-26	121
+frag_60_NC_052431.1	JQ684677	83.019	53	9	0	378	430	25568	25516	9.31e-07	56.3
+frag_60_NC_052431.1	6666666.3769	83.019	53	9	0	378	430	25668	25616	9.31e-07	56.3
+frag_60_NC_052431.1	6666666.19978	83.019	53	9	0	378	430	25690	25638	9.31e-07	56.3
+frag_60_NC_052431.1	NC_021308	81.132	53	10	0	378	430	29062	29010	1.13e-05	51.8
+frag_60_NC_052431.1	6666666.3710	82.927	41	7	0	389	429	25297	25257	0.006	43.7
+# BLASTN 2.9.0+
+# Query: frag_5_NC_033245.1 Fragment 5 of NC_033245.1 Hubei permutotetra-like virus 10 strain ZCM16232 RdRp and putative capsid protein genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_11_NC_038724.1 Fragment 11 of NC_038724.1 Bimiti virus strain TRVL 8362 RNA-dependent RNA polymerase gene, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_54_NC_031938.1 Fragment 54 of NC_031938.1 Flavobacterium phage Fpv6, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+frag_54_NC_031938.1	NC_018272	69.022	184	53	2	263	444	12500	12681	4.23e-11	70.7
+frag_54_NC_031938.1	NC_018271	69.022	184	53	2	263	444	12848	13029	4.23e-11	70.7
+frag_54_NC_031938.1	NC_021803	73.418	79	21	0	280	358	5385	5307	1.38e-04	49.1
+frag_54_NC_031938.1	NC_021792	73.418	79	21	0	280	358	5992	5914	1.38e-04	49.1
+frag_54_NC_031938.1	NC_021789	73.418	79	21	0	280	358	8103	8025	1.38e-04	49.1
+frag_54_NC_031938.1	NC_018087	83.784	37	6	0	342	378	105458	105494	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_237_NC_055135.1 Fragment 237 of NC_055135.1 Retroperitoneal fibromatosis-associated herpesvirus isolate RFHVMnM78114, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2_NC_033255.1 Fragment 2 of NC_033255.1 Hubei narna-like virus 3 strain QTM25395 RNA-dependent RNA polymerase gene, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7_NC_025835.1 Fragment 7 of NC_025835.1 Dinocampus coccinellae paralysis virus strain Quebec2013, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1_NC_004090.1 Fragment 1 of NC_004090.1 Ageratum yellow vein China virus-[Hn2] complete genome, isolate Hn2
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4_NC_038360.1 Fragment 4 of NC_038360.1 Torque teno midi virus 13 DNA, complete genome, isolate: MDJN69
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_26_NC_053003.1 Fragment 26 of NC_053003.1 Salmonella phage vB_SalS_ABTNLsp1, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 8 hits found
+frag_26_NC_053003.1	KC139515	99.200	500	4	0	1	500	46620	46121	0.0	884
+frag_26_NC_053003.1	GU169904	96.976	496	15	0	5	500	41730	41235	0.0	828
+frag_26_NC_053003.1	NC_019524	73.958	480	119	2	22	498	12118	12594	4.81e-80	299
+frag_26_NC_053003.1	NC_018832	71.194	427	121	2	16	441	43054	43479	6.69e-53	209
+frag_26_NC_053003.1	NC_018283	69.802	404	112	6	46	444	44780	44382	8.71e-39	161
+frag_26_NC_053003.1	KF626665	82.692	52	9	0	328	379	43188	43137	3.25e-06	54.5
+frag_26_NC_053003.1	KF626668	76.190	63	15	0	328	390	42907	42845	4.82e-04	47.3
+frag_26_NC_053003.1	NC_010393	78.431	51	11	0	61	111	20102	20152	0.006	43.7
+# BLASTN 2.9.0+
+# Query: frag_12_NC_040635.1 Fragment 12 of NC_040635.1 Birch leaf roll-associated virus isolate BpubFin407507, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_12_NC_040635.1	NC_019507	96.154	26	1	0	218	243	95870	95845	0.006	43.7
+frag_12_NC_040635.1	HM246721	96.154	26	1	0	218	243	40616	40641	0.006	43.7
+frag_12_NC_040635.1	FN667788	96.154	26	1	0	218	243	3434	3409	0.006	43.7
+# BLASTN 2.9.0+
+# Query: frag_39_NC_024370.1 Fragment 39 of NC_024370.1 Streptococcus phage IC1, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+frag_39_NC_024370.1	NC_024370	100.000	500	0	0	1	500	19001	19500	0.0	902
+frag_39_NC_024370.1	NC_024361	99.400	500	3	0	1	500	17789	18288	0.0	889
+frag_39_NC_024370.1	NC_024357	98.333	240	4	0	261	500	18737	18976	2.49e-115	416
+frag_39_NC_024370.1	KJ417497	98.701	231	3	0	270	500	23029	22799	1.57e-111	404
+frag_39_NC_024370.1	AP013407	75.758	66	7	3	203	264	6509	6449	0.006	42.8
+# BLASTN 2.9.0+
+# Query: frag_128_NC_041904.1 Fragment 128 of NC_041904.1 Pseudomonas phage Zigelbrucke, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+frag_128_NC_041904.1	NC_019913	99.800	500	1	0	1	500	62259	62758	0.0	898
+frag_128_NC_041904.1	NC_019450	98.400	500	8	0	1	500	65220	65719	0.0	866
+frag_128_NC_041904.1	NC_015294	93.000	500	35	0	1	500	39005	39504	0.0	745
+frag_128_NC_041904.1	NC_023601	71.429	126	36	0	318	443	69578	69703	5.15e-10	66.2
+frag_128_NC_041904.1	NC_023601	76.471	68	16	0	133	200	69396	69463	1.13e-05	51.8
+frag_128_NC_041904.1	NC_017972	90.000	30	3	0	343	372	249186	249157	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_9_NC_049819.1 Fragment 9 of NC_049819.1 Escherichia phage atuna, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 13 hits found
+frag_9_NC_049819.1	NC_021331	74.338	491	119	3	8	495	4707	4221	7.62e-84	311
+frag_9_NC_049819.1	NC_019725	70.693	505	134	7	1	498	42837	42340	8.70e-58	225
+frag_9_NC_049819.1	NC_005833	69.745	509	136	7	1	500	38345	37846	6.69e-53	209
+frag_9_NC_049819.1	NC_019509	69.857	491	139	5	8	495	35287	35771	8.15e-52	205
+frag_9_NC_049819.1	NC_015456	73.333	360	83	6	144	498	38971	38620	9.92e-51	202
+frag_9_NC_049819.1	NC_009540	67.579	475	135	11	10	473	37711	37245	1.47e-29	131
+frag_9_NC_049819.1	NC_007291	64.848	330	111	2	144	471	36556	36882	1.48e-10	68.9
+frag_9_NC_049819.1	KF771236	64.329	328	117	0	144	471	32319	31992	1.80e-09	65.3
+frag_9_NC_049819.1	JF501022	67.073	246	72	5	259	498	38126	37884	1.80e-09	65.3
+frag_9_NC_049819.1	NC_024210	65.574	244	84	0	136	379	33730	33487	6.27e-09	62.6
+frag_9_NC_049819.1	KC579452	64.024	328	118	0	144	471	35589	35262	2.19e-08	60.8
+frag_9_NC_049819.1	KC333879	64.024	328	118	0	144	471	33262	33589	2.19e-08	60.8
+frag_9_NC_049819.1	NC_023743	63.536	362	122	4	144	500	9196	9552	3.96e-05	50.0
+# BLASTN 2.9.0+
+# Query: frag_51_NC_022761.1 Fragment 51 of NC_022761.1 Bacillus phage CampHawk, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_51_NC_022761.1	NC_011421	98.800	500	6	0	1	500	24182	24681	0.0	875
+frag_51_NC_022761.1	KF554508	69.231	390	118	2	3	391	120198	120586	3.70e-37	156
+frag_51_NC_022761.1	KC595512	68.217	387	121	2	6	391	13707	14092	3.47e-31	137
+# BLASTN 2.9.0+
+# Query: frag_213_NC_047736.1 Fragment 213 of NC_047736.1 Bacillus phage B5S, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 21 hits found
+frag_213_NC_047736.1	6666666.43464	100.000	500	0	0	1	500	105945	106444	0.0	902
+frag_213_NC_047736.1	NC_022763	89.022	501	51	2	2	500	85519	85021	0.0	651
+frag_213_NC_047736.1	NC_022769	88.400	500	58	0	1	500	84389	83890	0.0	641
+frag_213_NC_047736.1	KJ489402	87.200	500	64	0	1	500	82955	82456	4.79e-175	614
+frag_213_NC_047736.1	NC_024205	73.705	502	128	2	1	500	83701	83202	3.24e-82	306
+frag_213_NC_047736.1	NC_018856	73.108	502	131	2	1	500	58348	57849	7.13e-78	292
+frag_213_NC_047736.1	NC_020873	75.117	426	104	2	23	447	101946	102370	1.06e-75	284
+frag_213_NC_047736.1	NC_024211	75.989	354	85	0	110	463	86586	86233	5.14e-67	256
+frag_213_NC_047736.1	NC_024137	71.608	479	132	2	4	480	84189	83713	2.66e-64	246
+frag_213_NC_047736.1	NC_016563	75.434	346	85	0	109	454	60652	60307	1.13e-62	242
+frag_213_NC_047736.1	JN797798	71.005	438	127	0	1	438	95727	96164	1.29e-55	218
+frag_213_NC_047736.1	NC_018857	73.988	346	88	2	110	454	102643	102987	5.49e-54	212
+frag_213_NC_047736.1	NC_020081	67.174	460	127	10	2	443	69903	70356	6.27e-28	126
+frag_213_NC_047736.1	KM051843	67.330	352	93	7	113	447	77998	78344	5.87e-22	105
+frag_213_NC_047736.1	NC_022771	65.668	367	107	5	112	460	82899	82534	4.51e-17	89.7
+frag_213_NC_047736.1	NC_021856	64.067	359	112	3	119	460	86557	86199	1.48e-10	68.9
+frag_213_NC_047736.1	KF021268	67.544	228	54	8	35	246	55967	55744	2.19e-08	60.8
+frag_213_NC_047736.1	KF021268	74.242	66	17	0	337	402	55653	55588	0.006	43.7
+frag_213_NC_047736.1	KF554508	86.275	51	6	1	100	149	57263	57213	2.67e-07	58.1
+frag_213_NC_047736.1	DQ004855	73.494	83	22	0	2	84	49571	49489	1.13e-05	51.8
+frag_213_NC_047736.1	KC595512	88.571	35	4	0	110	144	89785	89751	4.82e-04	46.4
+# BLASTN 2.9.0+
+# Query: frag_271_NC_024125.2 Fragment 271 of NC_024125.2 Escherichia phage e11/2, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 20 hits found
+frag_271_NC_024125.2	NC_024125	100.000	500	0	0	1	500	120814	121313	0.0	902
+frag_271_NC_024125.2	AP011113	98.000	500	10	0	1	500	136133	136632	0.0	857
+frag_271_NC_024125.2	JX128259	96.800	500	16	0	1	500	134852	135351	0.0	830
+frag_271_NC_024125.2	NC_019399	96.600	500	17	0	1	500	134766	135265	0.0	826
+frag_271_NC_024125.2	NC_019503	96.200	500	19	0	1	500	134738	135237	0.0	817
+frag_271_NC_024125.2	HE956711	96.200	500	19	0	1	500	135790	136289	0.0	817
+frag_271_NC_024125.2	HM137666	96.000	500	20	0	1	500	136690	137189	0.0	812
+frag_271_NC_024125.2	6666666.61440	95.800	500	21	0	1	500	132510	133009	0.0	808
+frag_271_NC_024125.2	NC_018855	68.845	459	141	2	43	500	136037	135580	3.95e-43	177
+frag_271_NC_024125.2	KF562341	70.000	300	86	2	41	338	138156	138453	1.47e-29	131
+frag_271_NC_024125.2	NC_020416	67.485	326	106	0	172	497	128481	128806	1.38e-23	111
+frag_271_NC_024125.2	NC_023561	66.667	330	107	1	171	497	141970	142299	8.71e-20	98.7
+frag_271_NC_024125.2	JX181825	66.564	326	109	0	172	497	10625	10950	3.04e-19	97.8
+frag_271_NC_024125.2	NC_014662	67.626	278	81	3	226	497	134418	134692	1.29e-17	91.5
+frag_271_NC_024125.2	NC_014260	71.975	157	42	2	197	352	141429	141584	8.16e-14	78.8
+frag_271_NC_024125.2	NC_010105	69.277	166	51	0	159	324	138408	138573	4.23e-11	70.7
+frag_271_NC_024125.2	NC_018087	65.806	310	88	8	54	351	138425	138728	6.27e-09	62.6
+frag_271_NC_024125.2	NC_014036	65.833	240	56	8	33	256	45379	45150	1.13e-05	51.8
+frag_271_NC_024125.2	NC_014036	72.222	90	19	2	411	497	45001	44915	4.82e-04	47.3
+frag_271_NC_024125.2	NC_019526	73.913	69	17	1	51	118	288294	288226	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_2_NC_025705.1 Fragment 2 of NC_025705.1 Circoviridae 1 LDMD-2013, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2_NC_040362.1 Fragment 2 of NC_040362.1 Meles meles circovirus-like virus, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_30_NC_017980.1 Fragment 30 of NC_017980.1 Clostridium phage phiCP7R, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_30_NC_017980.1	NC_017980	100.000	500	0	0	1	500	14501	15000	0.0	902
+frag_30_NC_017980.1	NC_018084	96.573	496	14	3	1	496	14595	15087	0.0	808
+frag_30_NC_017980.1	NC_019523	78.481	79	13	2	60	136	8759	8683	2.19e-08	61.7
+# BLASTN 2.9.0+
+# Query: frag_4_NC_028794.1 Fragment 4 of NC_028794.1 Mycobacterium phage Piro94, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_4_NC_028794.1	KM197169	100.000	500	0	0	1	500	1501	2000	0.0	902
+frag_4_NC_028794.1	NC_023553	66.731	520	116	14	5	485	1525	2026	1.92e-34	147
+# BLASTN 2.9.0+
+# Query: frag_7_NC_002363.1 Fragment 7 of NC_002363.1 Vibrio phage VfO4K68, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_7_NC_002363.1	NC_002362	100.000	500	0	0	1	500	3001	3500	0.0	902
+# BLASTN 2.9.0+
+# Query: frag_10_NC_054994.1 Fragment 10 of NC_054994.1 Lactococcus phage 50504, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_10_NC_054994.1	NC_001706	88.600	500	54	1	1	500	4248	4744	0.0	644
+frag_10_NC_054994.1	NC_001629	86.427	501	64	2	1	500	17522	17025	1.56e-168	592
+# BLASTN 2.9.0+
+# Query: frag_12_NC_032975.1 Fragment 12 of NC_032975.1 Wenzhou picorna-like virus 28 strain WZRBX42853 hypothetical protein 1 and hypothetical protein 2 genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_85_NC_019725.1 Fragment 85 of NC_019725.1 Escherichia phage ADB-2, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 17 hits found
+frag_85_NC_019725.1	NC_019725	100.000	500	0	0	1	500	42001	42500	0.0	902
+frag_85_NC_019725.1	NC_015456	93.000	500	35	0	1	500	38281	38780	0.0	745
+frag_85_NC_019725.1	NC_005833	92.200	500	39	0	1	500	37509	38008	0.0	727
+frag_85_NC_019725.1	JF501022	74.717	265	61	1	148	406	37686	37950	1.13e-43	178
+frag_85_NC_019725.1	NC_021331	68.456	447	133	2	1	443	3879	4321	5.87e-41	169
+frag_85_NC_019725.1	NC_019509	71.088	294	85	0	142	435	35972	35679	1.92e-34	148
+frag_85_NC_019725.1	NC_009540	67.246	345	102	3	151	488	37028	37368	4.82e-23	110
+frag_85_NC_019725.1	NC_009540	85.714	35	5	0	34	68	36911	36945	0.021	41.9
+frag_85_NC_019725.1	NC_007291	69.685	254	75	2	148	400	37101	36849	2.05e-21	104
+frag_85_NC_019725.1	KF771236	69.685	254	75	2	148	400	31773	32025	2.05e-21	104
+frag_85_NC_019725.1	KC579452	69.685	254	75	2	148	400	35043	35295	2.05e-21	104
+frag_85_NC_019725.1	KC333879	69.685	254	75	2	148	400	33808	33556	2.05e-21	104
+frag_85_NC_019725.1	NC_010495	69.200	250	75	2	142	390	36137	35889	3.04e-19	97.8
+frag_85_NC_019725.1	NC_017981	66.798	253	82	2	7	258	29478	29227	1.21e-11	71.6
+frag_85_NC_019725.1	NC_021534	66.667	246	80	2	151	395	29610	29854	1.48e-10	68.0
+frag_85_NC_019725.1	NC_019404	73.333	105	28	0	303	407	35016	35120	1.80e-09	64.4
+frag_85_NC_019725.1	NC_023743	66.228	228	75	2	172	398	9718	9492	2.67e-07	58.1
+# BLASTN 2.9.0+
+# Query: frag_38_NC_005831.2 Fragment 38 of NC_005831.2 Human Coronavirus NL63, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1_NC_026652.1 Fragment 1 of NC_026652.1 Avon-Heathcote Estuary associated circular virus 24 isolate AHEaCV-24-NZ-2183TU-2913, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4_NC_034615.1 Fragment 4 of NC_034615.1 Zostera marina amalgavirus 2 isolate SRP035489-2, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2_NC_029592.1 Fragment 2 of NC_029592.1 Lake Sarah-associated circular virus-13 isolate LSaCV-13-LSMU-2013, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_15_NC_048817.1 Fragment 15 of NC_048817.1 Gordonia phage Tanis, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_15_NC_048817.1	NC_023694	81.208	447	80	2	55	499	15736	16180	1.67e-117	423
+frag_15_NC_048817.1	NC_023735	80.180	444	84	2	58	499	12288	12729	1.91e-110	399
+# BLASTN 2.9.0+
+# Query: frag_2_NC_023860.1 Fragment 2 of NC_023860.1 Porcine parvovirus 6 isolate TJ, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1_NC_055112.1 Fragment 1 of NC_055112.1 Bolahun virus variant 2 putative nucleoprotein, putative small transmembrane protein, putative glycoprotein, putative small ZnF protein, and RdRp genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_56_NC_018834.1 Fragment 56 of NC_018834.1 Propionibacterium phage P9.1, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 21 hits found
+frag_56_NC_018834.1	NC_022335	96.188	446	16	1	3	447	27639	28084	0.0	725
+frag_56_NC_018834.1	NC_015454	92.170	447	34	1	1	447	27417	27862	0.0	645
+frag_56_NC_018834.1	JX570703	90.402	448	40	3	2	447	27635	28081	8.65e-172	604
+frag_56_NC_018834.1	JX570703	82.895	76	11	1	424	499	28151	28224	2.85e-13	77.0
+frag_56_NC_018834.1	JX570703	88.235	34	4	0	425	458	28303	28336	0.002	44.6
+frag_56_NC_018834.1	JX570707	89.485	447	45	2	1	445	27647	28093	6.65e-167	588
+frag_56_NC_018834.1	NC_018845	87.927	439	50	3	1	437	27435	27872	2.48e-153	543
+frag_56_NC_018834.1	NC_018845	73.958	96	14	2	400	487	28090	28182	6.27e-09	62.6
+frag_56_NC_018834.1	NC_009541	87.253	455	53	5	1	452	28014	28466	2.48e-153	542
+frag_56_NC_018834.1	NC_018842	86.344	454	58	4	1	452	27689	28140	1.91e-148	526
+frag_56_NC_018834.1	NC_018839	84.222	450	58	8	1	444	27830	28272	4.49e-131	468
+frag_56_NC_018834.1	NC_018839	77.419	62	13	1	427	487	28361	28422	4.82e-04	46.4
+frag_56_NC_018834.1	NC_018849	83.921	454	60	8	1	447	27313	27760	1.57e-130	466
+frag_56_NC_018834.1	NC_022334	83.407	452	63	7	2	447	27657	28102	8.12e-128	457
+frag_56_NC_018834.1	NC_022342	82.895	456	62	10	4	452	27385	27831	6.24e-123	441
+frag_56_NC_018834.1	NC_018847	83.070	443	62	8	12	447	27608	28044	7.60e-122	437
+frag_56_NC_018834.1	NC_018847	96.000	50	2	0	438	487	28107	28156	6.70e-15	82.4
+frag_56_NC_018834.1	NC_022340	82.237	456	66	9	1	447	27618	28067	1.13e-119	431
+frag_56_NC_018834.1	NC_022340	78.125	64	14	0	424	487	28136	28199	3.25e-06	53.6
+frag_56_NC_018834.1	NC_018838	80.789	380	61	7	76	449	27747	28120	1.91e-91	336
+frag_56_NC_018834.1	NC_018838	88.889	36	4	0	1	36	27724	27759	1.38e-04	48.2
+# BLASTN 2.9.0+
+# Query: frag_2_NC_018226.1 Fragment 2 of NC_018226.1 Swine pasivirus 1, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_101_NC_031224.2 Fragment 101 of NC_031224.2 Arthrobacter phage Mudcat, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_166_NC_048730.1 Fragment 166 of NC_048730.1 Streptomyces phage Yaboi, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_11_NC_028667.1 Fragment 11 of NC_028667.1 Pseudomonas phage vB_PaeS_PM105
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+frag_11_NC_028667.1	NC_006548	72.209	421	109	3	1	414	4931	5350	2.49e-58	226
+frag_11_NC_028667.1	JX495041	68.825	417	124	5	1	414	5588	6001	5.49e-35	150
+frag_11_NC_028667.1	JX495042	68.585	417	125	5	1	414	6123	6536	6.69e-34	145
+frag_11_NC_028667.1	NC_005882	71.094	256	62	5	1	247	4018	4270	3.25e-25	117
+frag_11_NC_028667.1	NC_009237	70.196	255	66	4	1	247	27996	28248	4.82e-23	109
+# BLASTN 2.9.0+
+# Query: frag_64_NC_015249.1 Fragment 64 of NC_015249.1 Enterobacteria phage 285P, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 26 hits found
+frag_64_NC_015249.1	NC_015249	100.000	500	0	0	1	500	31501	32000	0.0	902
+frag_64_NC_015249.1	NC_011534	94.200	500	29	0	1	500	31551	32050	0.0	772
+frag_64_NC_015249.1	NC_022744	88.600	500	57	0	1	500	31989	32488	0.0	645
+frag_64_NC_015249.1	NC_011040	86.800	500	66	0	1	500	31979	32478	2.48e-172	605
+frag_64_NC_015249.1	NC_008694	85.000	500	75	0	1	500	30267	30766	7.59e-160	564
+frag_64_NC_015249.1	NC_010807	73.977	342	73	5	18	351	31586	31919	6.69e-53	208
+frag_64_NC_015249.1	NC_010807	72.165	97	27	0	402	498	31970	32066	3.25e-06	54.5
+frag_64_NC_015249.1	NC_001271	74.691	324	72	4	18	336	32339	32657	2.33e-52	206
+frag_64_NC_015249.1	NC_001271	73.196	97	26	0	402	498	32723	32819	7.64e-08	59.0
+frag_64_NC_015249.1	NC_015719	69.939	489	137	6	17	500	31296	31779	9.92e-51	202
+frag_64_NC_015249.1	NC_013647	70.021	477	135	5	17	489	31797	32269	9.92e-51	201
+frag_64_NC_015249.1	NC_011043	68.930	486	147	4	17	500	31597	32080	9.30e-45	182
+frag_64_NC_015249.1	NC_011085	70.064	471	124	12	20	483	30806	31266	3.95e-43	176
+frag_64_NC_015249.1	JX421753	67.556	487	152	2	17	500	31195	31678	2.49e-39	163
+frag_64_NC_015249.1	NC_011045	67.886	492	142	7	17	500	31456	31939	1.06e-37	159
+frag_64_NC_015249.1	JQ957925	67.351	487	153	2	17	500	30235	30718	1.06e-37	159
+frag_64_NC_015249.1	AY264774	67.351	487	153	3	17	500	32993	33476	1.29e-36	154
+frag_64_NC_015249.1	NC_019510	66.600	503	162	2	1	500	30881	31380	1.92e-34	147
+frag_64_NC_015249.1	NC_019416	69.688	353	97	4	17	364	31420	31767	6.69e-34	146
+frag_64_NC_015249.1	NC_015271	67.797	472	142	7	17	483	29853	30319	2.34e-33	144
+frag_64_NC_015249.1	NC_023558	66.207	435	139	4	30	457	31179	31612	1.38e-23	112
+frag_64_NC_015249.1	NC_024379	67.048	437	132	9	30	457	31861	32294	4.82e-23	110
+frag_64_NC_015249.1	NC_011042	66.597	479	142	12	20	486	31488	31960	5.87e-22	105
+frag_64_NC_015249.1	AM084414	66.167	467	144	10	30	486	31050	31512	8.71e-20	98.7
+frag_64_NC_015249.1	NC_023576	66.109	478	140	13	20	483	30842	31311	3.71e-18	94.2
+frag_64_NC_015249.1	JQ780163	66.890	299	83	5	35	325	31717	32007	5.50e-16	86.0
+# BLASTN 2.9.0+
+# Query: frag_9_NC_034154.1 Fragment 9 of NC_034154.1 San Bernardo virus strain CoB37dA hypothetical protein 1, hypothetical protein 2, and hypothetical protein 3 genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_36_NC_007149.1 Fragment 36 of NC_007149.1 Vibriophage VP4, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 31 hits found
+frag_36_NC_007149.1	JQ780163	100.000	500	0	0	1	500	17496	17995	0.0	902
+frag_36_NC_007149.1	JQ780163	88.889	63	3	3	48	108	27599	27659	3.47e-12	73.4
+frag_36_NC_007149.1	JQ780163	95.556	45	1	1	92	135	25791	25835	4.23e-11	69.8
+frag_36_NC_007149.1	JQ780163	72.826	92	10	2	49	125	12985	13076	7.64e-08	59.0
+frag_36_NC_007149.1	JQ780163	80.702	57	6	2	90	143	38874	38928	3.96e-05	50.0
+frag_36_NC_007149.1	JQ780163	91.176	34	3	0	52	85	7279	7312	1.38e-04	49.1
+frag_36_NC_007149.1	JQ780163	96.429	28	1	0	90	117	21508	21535	4.82e-04	47.3
+frag_36_NC_007149.1	JQ780163	93.548	31	0	1	83	113	33237	33265	0.002	45.5
+frag_36_NC_007149.1	JQ780163	100.000	24	0	0	90	113	20569	20592	0.002	44.6
+frag_36_NC_007149.1	JQ780163	88.235	34	3	1	76	108	7242	7275	0.021	41.0
+frag_36_NC_007149.1	JQ780163	92.593	27	2	0	90	116	15881	15907	0.021	41.0
+frag_36_NC_007149.1	HQ641341	95.020	502	22	3	1	500	17535	18035	0.0	783
+frag_36_NC_007149.1	HQ641341	85.714	63	5	3	48	108	27653	27713	1.80e-09	64.4
+frag_36_NC_007149.1	HQ641341	91.111	45	3	1	92	135	25845	25889	2.19e-08	60.8
+frag_36_NC_007149.1	HQ641341	91.176	34	3	0	52	85	7239	7272	1.38e-04	49.1
+frag_36_NC_007149.1	HQ641341	70.476	105	13	4	49	135	13612	13716	1.38e-04	49.1
+frag_36_NC_007149.1	HQ641341	77.193	57	8	2	90	143	38423	38477	0.021	41.0
+frag_36_NC_007149.1	NC_011042	83.333	48	8	0	49	96	13048	13095	1.13e-05	51.8
+frag_36_NC_007149.1	NC_011045	89.474	38	3	1	50	87	4657	4693	1.38e-04	48.2
+frag_36_NC_007149.1	AY264774	89.474	38	3	1	50	87	5856	5892	1.38e-04	48.2
+frag_36_NC_007149.1	NC_019416	81.250	48	9	0	42	89	1323	1370	4.82e-04	47.3
+frag_36_NC_007149.1	NC_019416	86.111	36	5	0	51	86	799	834	0.006	43.7
+frag_36_NC_007149.1	NC_001271	80.000	55	10	1	35	88	1483	1537	4.82e-04	47.3
+frag_36_NC_007149.1	NC_023558	85.000	40	6	0	49	88	12982	13021	4.82e-04	46.4
+frag_36_NC_007149.1	NC_011043	80.000	50	8	1	41	88	13463	13512	0.006	43.7
+frag_36_NC_007149.1	JQ957925	86.842	38	4	1	50	87	3709	3745	0.006	43.7
+frag_36_NC_007149.1	NC_024379	79.167	48	10	0	49	96	13903	13950	0.006	42.8
+frag_36_NC_007149.1	NC_023576	79.167	48	10	0	49	96	11791	11838	0.006	42.8
+frag_36_NC_007149.1	JX421753	78.182	55	11	1	35	88	1348	1402	0.006	42.8
+frag_36_NC_007149.1	NC_013647	79.592	49	8	1	42	88	13424	13472	0.021	41.9
+frag_36_NC_007149.1	AM084414	82.500	40	7	0	49	88	12856	12895	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_4_NC_025253.1 Fragment 4 of NC_025253.1 Farmington virus strain CT 114, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1_NC_030463.1 Fragment 1 of NC_030463.1 Circovirus-like genome DCCV-1, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_5_NC_043512.1 Fragment 5 of NC_043512.1 Tulane virus nonstructural polyprotein, capsid protein, and minor structural protein VP2 genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7_NC_027122.1 Fragment 7 of NC_027122.1 Vesivirus ferret badger/JX12/China/2012, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_25_NC_038295.1 Fragment 25 of NC_038295.1 Fathead minnow nidovirus replicase polyprotein 1ab (pp1ab), replicase polyprotein 1a (pp1a), spike glycoprotein (S), membrane protein (M), and nucleocapsid protein (N) genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_22_NC_041892.1 Fragment 22 of NC_041892.1 Propionibacterium phage B3, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+frag_22_NC_041892.1	NC_016654	75.625	160	39	0	285	444	27011	27170	3.96e-24	113
+frag_22_NC_041892.1	6666666.3800	72.078	154	41	2	302	454	12460	12612	2.85e-13	77.9
+frag_22_NC_041892.1	NC_009603	73.554	121	32	0	285	405	27613	27733	9.94e-13	75.2
+frag_22_NC_041892.1	JN831653	77.778	81	18	0	373	453	13859	13939	5.15e-10	66.2
+frag_22_NC_041892.1	NC_003387	73.267	101	27	0	345	445	10632	10732	2.19e-08	61.7
+frag_22_NC_041892.1	NC_024147	72.549	102	28	0	344	445	10524	10625	7.64e-08	59.0
+frag_22_NC_041892.1	NC_023722	73.913	92	24	0	365	456	21211	21302	7.64e-08	59.0
+frag_22_NC_041892.1	NC_023698	76.389	72	17	0	365	436	9745	9816	3.25e-06	54.5
+frag_22_NC_041892.1	NC_004686	76.389	72	17	0	365	436	9753	9824	3.25e-06	54.5
+frag_22_NC_041892.1	KJ567041	76.389	72	17	0	365	436	10269	10340	3.25e-06	54.5
+frag_22_NC_041892.1	6666666.3871	76.389	72	17	0	365	436	9744	9815	3.25e-06	54.5
+frag_22_NC_041892.1	NC_021063	70.588	102	30	0	344	445	11975	12076	3.96e-05	50.0
+# BLASTN 2.9.0+
+# Query: frag_10_NC_032815.1 Fragment 10 of NC_032815.1 Wenling picorna-like virus 6 strain WLJQ101512 hypothetical protein gene, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2_NC_004285.1 Fragment 2 of NC_004285.1 Aedes albopictus densovirus 2 DNA
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_53_NC_028835.1 Fragment 53 of NC_028835.1 Lactobacillus phage CL2, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+frag_53_NC_028835.1	NC_007501	95.200	500	24	0	1	500	22906	23405	0.0	794
+frag_53_NC_028835.1	NC_004112	95.000	500	25	0	1	500	26888	27387	0.0	790
+frag_53_NC_028835.1	NC_005893	97.297	74	2	0	426	499	28394	28467	6.27e-28	125
+frag_53_NC_028835.1	NC_011104	94.595	74	4	0	426	499	28216	28289	3.25e-25	116
+frag_53_NC_028835.1	NC_013598	74.603	63	8	2	54	112	27169	27227	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_16_NC_009758.1 Fragment 16 of NC_009758.1 Marine RNA virus JP-B, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3_NC_040319.1 Fragment 3 of NC_040319.1 Giant house spider associated circular virus 2 isolate BC_I1657E_H4, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_6_NC_043484.1 Fragment 6 of NC_043484.1 Drosophila unispina virus 1 ORF1, ORF2, ORF3, glycoprotein (G), and RNA-dependent RNA polymerase (L) genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3_NC_037062.1 Fragment 3 of NC_037062.1 Varroa mite associated genomovirus 1 isolate VPVL_36, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_9_NC_003635.1 Fragment 9 of NC_003635.1 Modoc virus, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2_NC_040659.1 Fragment 2 of NC_040659.1 Diatom colony associated dsRNA virus 10 genomic RNA, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_38_NC_030904.1 Fragment 38 of NC_030904.1 Bacillus phage vB_BhaS-171, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_38_NC_030904.1	NC_013696	66.667	159	49	2	1	156	15660	15817	0.006	43.7
+# BLASTN 2.9.0+
+# Query: frag_9_NC_033417.1 Fragment 9 of NC_033417.1 Wenzhou tombus-like virus 11 strain mosZJ33874 hypothetical protein 1, hypothetical protein 2, and hypothetical protein 3 genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7_NC_032637.1 Fragment 7 of NC_032637.1 Beihai picorna-like virus 56 strain BWBFG40791 hypothetical protein gene, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4_NC_027927.1 Fragment 4 of NC_027927.1 Tomato necrotic dwarf virus, RNA2, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_91_NC_047841.1 Fragment 91 of NC_047841.1 Klebsiella phage KPN N141, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 9 hits found
+frag_91_NC_047841.1	JF501022	98.400	500	8	0	1	500	33371	33870	0.0	866
+frag_91_NC_047841.1	NC_019509	70.760	171	47	1	304	471	42339	42509	6.70e-15	82.4
+frag_91_NC_047841.1	NC_021331	65.686	306	95	5	171	471	47253	46953	5.15e-10	66.2
+frag_91_NC_047841.1	NC_009540	75.490	102	22	2	304	402	30026	29925	5.15e-10	66.2
+frag_91_NC_047841.1	NC_024210	70.000	110	33	0	299	408	25850	25741	3.96e-05	50.9
+frag_91_NC_047841.1	NC_023743	69.643	112	34	0	297	408	17315	17426	3.96e-05	50.0
+frag_91_NC_047841.1	NC_019404	72.289	83	23	0	308	390	27387	27305	4.82e-04	47.3
+frag_91_NC_047841.1	NC_019725	69.608	102	31	0	239	340	36174	36073	0.002	45.5
+frag_91_NC_047841.1	NC_010811	96.154	26	1	0	254	279	186963	186988	0.006	43.7
+# BLASTN 2.9.0+
+# Query: frag_4_NC_017995.1 Fragment 4 of NC_017995.1 Human papillomavirus type 137, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_4_NC_017995.1	NC_001706	90.000	30	3	0	328	357	3646	3617	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_3_NC_040818.1 Fragment 3 of NC_040818.1 Leptonychotes weddellii papillomavirus 6 isolate 17495, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_77_NC_028927.1 Fragment 77 of NC_028927.1 Escherichia phage slur02, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 20 hits found
+frag_77_NC_028927.1	NC_019503	98.600	500	7	0	1	500	133529	134028	0.0	871
+frag_77_NC_028927.1	HE956711	98.600	500	7	0	1	500	134581	135080	0.0	871
+frag_77_NC_028927.1	6666666.61440	96.800	500	16	0	1	500	131301	131800	0.0	830
+frag_77_NC_028927.1	JX128259	95.600	500	22	0	1	500	133643	134142	0.0	803
+frag_77_NC_028927.1	AP011113	94.400	500	28	0	1	500	134924	135423	0.0	776
+frag_77_NC_028927.1	NC_019399	94.000	500	30	0	1	500	133556	134055	0.0	767
+frag_77_NC_028927.1	HM137666	93.400	500	33	0	1	500	135481	135980	0.0	754
+frag_77_NC_028927.1	NC_024125	92.800	500	36	0	1	500	119605	120104	0.0	740
+frag_77_NC_028927.1	NC_010105	84.444	90	14	0	3	92	137040	137129	2.50e-20	100
+frag_77_NC_028927.1	NC_023561	76.027	146	33	2	331	475	140919	141063	8.71e-20	99.6
+frag_77_NC_028927.1	NC_014662	76.027	146	33	2	331	475	133312	133456	8.71e-20	99.6
+frag_77_NC_028927.1	NC_019500	83.333	90	15	0	3	92	101282	101193	1.06e-18	96.0
+frag_77_NC_028927.1	NC_014260	83.333	90	15	0	3	92	140023	140112	1.06e-18	96.0
+frag_77_NC_028927.1	NC_018855	80.000	90	18	0	3	92	137278	137189	6.70e-15	82.4
+frag_77_NC_028927.1	KF562341	80.000	90	18	0	3	92	136917	137006	6.70e-15	82.4
+frag_77_NC_028927.1	NC_020416	76.623	77	18	0	13	89	127119	127195	7.64e-08	59.0
+frag_77_NC_028927.1	NC_020416	83.333	48	8	0	305	352	127405	127452	1.13e-05	51.8
+frag_77_NC_028927.1	JX181825	76.623	77	18	0	13	89	9263	9339	7.64e-08	59.0
+frag_77_NC_028927.1	JX181825	67.251	171	53	1	305	475	9549	9716	9.31e-07	55.4
+frag_77_NC_028927.1	NC_014792	70.787	89	26	0	4	92	136192	136280	0.002	44.6
+# BLASTN 2.9.0+
+# Query: frag_73_NC_053014.1 Fragment 73 of NC_053014.1 Pectobacterium phage MA11, partial genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7_NC_032871.1 Fragment 7 of NC_032871.1 Shahe picorna-like virus 7 strain SHWC0209c12710 hypothetical protein gene, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_14_NC_039230.1 Fragment 14 of NC_039230.1 Avian paramyxovirus 2 strain APMV-2/Chicken/California/Yucaipa/56, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3_NC_001469.1 Fragment 3 of NC_001469.1 Cucumber necrosis virus, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_87_NC_042333.1 Fragment 87 of NC_042333.1 Mycobacterium virus Cuco, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 17 hits found
+frag_87_NC_042333.1	6666666.3769	99.800	500	1	0	1	500	43064	43563	0.0	898
+frag_87_NC_042333.1	JQ684677	99.400	500	3	0	1	500	42953	43452	0.0	889
+frag_87_NC_042333.1	6666666.19978	98.600	500	7	0	1	500	43507	44006	0.0	871
+frag_87_NC_042333.1	6666666.3710	78.958	499	103	1	2	500	43694	44190	4.80e-118	425
+frag_87_NC_042333.1	6666666.13472	74.074	108	28	0	71	178	43834	43941	4.23e-11	69.8
+frag_87_NC_042333.1	NC_021307	74.419	86	22	0	77	162	42821	42906	2.67e-07	57.2
+frag_87_NC_042333.1	JF957058	75.309	81	20	0	76	156	44293	44373	2.67e-07	57.2
+frag_87_NC_042333.1	6666666.3803	71.296	108	31	0	71	178	44273	44380	9.31e-07	56.3
+frag_87_NC_042333.1	JF957060	70.370	108	32	0	71	178	46859	46966	1.13e-05	51.8
+frag_87_NC_042333.1	NC_024148	71.000	100	29	0	76	175	44006	44105	3.96e-05	50.9
+frag_87_NC_042333.1	NC_022753	69.565	115	35	0	44	158	45401	45515	3.96e-05	50.9
+frag_87_NC_042333.1	JX307704	72.093	86	24	0	77	162	43494	43579	1.38e-04	48.2
+frag_87_NC_042333.1	JQ512844	72.093	86	24	0	77	162	43675	43760	1.38e-04	48.2
+frag_87_NC_042333.1	6666666.3841	70.000	100	30	0	76	175	43833	43932	4.82e-04	46.4
+frag_87_NC_042333.1	NC_023862	79.592	49	10	0	116	164	46561	46609	0.002	44.6
+frag_87_NC_042333.1	6666666.3740	69.697	99	30	0	76	174	44065	44163	0.002	44.6
+frag_87_NC_042333.1	NC_024143	86.111	36	5	0	116	151	48427	48462	0.006	43.7
+# BLASTN 2.9.0+
+# Query: frag_27_NC_048748.1 Fragment 27 of NC_048748.1 Escherichia phage vB_EcoS_HdH2, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 6 hits found
+frag_27_NC_048748.1	NC_024139	95.000	500	24	1	1	500	13113	13611	0.0	786
+frag_27_NC_048748.1	AY587007	94.611	501	26	1	1	500	13467	13967	0.0	779
+frag_27_NC_048748.1	NC_017969	91.549	497	40	2	1	497	12808	13302	0.0	700
+frag_27_NC_048748.1	NC_015269	91.515	495	40	2	1	495	13101	13593	0.0	697
+frag_27_NC_048748.1	NC_010583	84.298	363	49	8	5	363	13931	14289	3.24e-101	370
+frag_27_NC_048748.1	NC_019919	79.612	103	21	0	5	107	13245	13347	1.29e-17	92.4
+# BLASTN 2.9.0+
+# Query: frag_11_NC_032484.1 Fragment 11 of NC_032484.1 Bastrovirus/VietNam/Rat/16715_10 non-structural polyprotein and structural polyprotein genes, complete cds
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1_NC_012671.1 Fragment 1 of NC_012671.1 Quang Binh virus, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_244_NC_055231.1 Fragment 244 of NC_055231.1 Orthopoxvirus Abatino, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1227_NC_017042.1 Fragment 1227 of NC_017042.1 Rickettsia rhipicephali str. 3-7-female6-CWPP, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_1227_NC_017042.1	NC_018275	80.952	42	8	0	438	479	28966	29007	0.021	41.0
+frag_1227_NC_017042.1	NC_006949	80.952	42	8	0	438	479	36101	36142	0.021	41.0
+frag_1227_NC_017042.1	AB362338	80.952	42	8	0	438	479	30878	30919	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_2963_NZ_CP013672.1 Fragment 2963 of NZ_CP013672.1 Streptococcus pyogenes strain AP53 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_2963_NZ_CP013672.1	NC_014260	87.500	32	4	0	277	308	138246	138277	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_1836_NZ_CP031685.1 Fragment 1836 of NZ_CP031685.1 Haemophilus influenzae strain P650-8603 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_1836_NZ_CP031685.1	AP013515	86.486	37	4	1	178	214	23262	23227	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_347_NZ_CP026592.1 Fragment 347 of NZ_CP026592.1 Clostridioides difficile strain CD-10-00484 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_347_NZ_CP026592.1	GU071092	82.222	45	7	1	98	142	239169	239212	0.006	42.8
+frag_347_NZ_CP026592.1	NC_015279	80.952	42	8	0	312	353	173917	173958	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_2991_NZ_CP060719.1 Fragment 2991 of NZ_CP060719.1 Thermomonas carbonis strain KCTC 42013 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2903_NZ_CP027006.1 Fragment 2903 of NZ_CP027006.1 Akkermansia muciniphila strain EB-AMDK-30 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_37_NZ_CP029003.1 Fragment 37 of NZ_CP029003.1 Actinobacillus pleuropneumoniae serovar 1 str. 4074 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_653_NC_020300.1 Fragment 653 of NC_020300.1 Bartonella australis Aust/NH1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_93_NZ_CP045136.1 Fragment 93 of NZ_CP045136.1 Acinetobacter indicus strain XG01 plasmid pXG01-X3, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_117_NZ_CP011346.1 Fragment 117 of NZ_CP011346.1 Bacillus velezensis strain JJ-D34 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4320_NZ_CP063354.1 Fragment 4320 of NZ_CP063354.1 Serratia marcescens strain SCQ1 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_6182_NZ_CP048409.1 Fragment 6182 of NZ_CP048409.1 Draconibacterium halophilum strain M1 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4204_NZ_CP034565.1 Fragment 4204 of NZ_CP034565.1 Vibrio parahaemolyticus strain D3112 chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_4204_NZ_CP034565.1	NC_010106	77.049	61	11	1	104	164	13493	13550	4.82e-04	46.4
+# BLASTN 2.9.0+
+# Query: frag_5385_NZ_CP045144.1 Fragment 5385 of NZ_CP045144.1 Ancylobacter sp. TS-1 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_5334_NZ_CP030063.1 Fragment 5334 of NZ_CP030063.1 [Brevibacterium] frigoritolerans strain ZB201705 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7517_NZ_CP069907.1 Fragment 7517 of NZ_CP069907.1 Klebsiella pneumoniae strain FDAARGOS_1313 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2056_NZ_CP013338.1 Fragment 2056 of NZ_CP013338.1 Raoultella ornithinolytica strain Yangling I2 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_10627_NZ_CP037943.1 Fragment 10627 of NZ_CP037943.1 Escherichia coli strain CFSAN027343 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 24 hits found
+frag_10627_NZ_CP037943.1	FM180578	98.600	500	7	0	1	500	43710	44209	0.0	871
+frag_10627_NZ_CP037943.1	NC_004813	96.800	500	16	0	1	500	40529	41028	0.0	830
+frag_10627_NZ_CP037943.1	JQ347801	96.000	500	20	0	1	500	43457	43956	0.0	812
+frag_10627_NZ_CP037943.1	NC_019934	72.678	183	50	0	124	306	7743	7561	5.87e-22	105
+frag_10627_NZ_CP037943.1	NC_019710	72.778	180	49	0	123	302	10552	10731	2.05e-21	104
+frag_10627_NZ_CP037943.1	NC_019708	72.778	180	49	0	123	302	10989	11168	2.05e-21	104
+frag_10627_NZ_CP037943.1	NC_019705	72.778	180	49	0	123	302	10459	10638	2.05e-21	104
+frag_10627_NZ_CP037943.1	NC_002166	72.778	180	49	0	123	302	10508	10687	2.05e-21	104
+frag_10627_NZ_CP037943.1	NC_019721	72.826	184	45	3	124	303	10823	11005	8.71e-20	98.7
+frag_10627_NZ_CP037943.1	NC_005857	72.067	179	50	0	124	302	12070	12248	8.71e-20	98.7
+frag_10627_NZ_CP037943.1	NC_010391	75.758	132	32	0	120	251	28844	28975	1.06e-18	95.1
+frag_10627_NZ_CP037943.1	NC_019768	73.154	149	40	0	156	304	11297	11445	4.51e-17	89.7
+frag_10627_NZ_CP037943.1	NC_019767	73.154	149	40	0	156	304	11288	11436	4.51e-17	89.7
+frag_10627_NZ_CP037943.1	NC_019719	73.154	149	40	0	156	304	11350	11498	4.51e-17	89.7
+frag_10627_NZ_CP037943.1	NC_019715	73.154	149	40	0	156	304	11297	11445	4.51e-17	89.7
+frag_10627_NZ_CP037943.1	NC_019714	73.154	149	40	0	156	304	11345	11493	4.51e-17	89.7
+frag_10627_NZ_CP037943.1	NC_019709	73.154	149	40	0	156	304	11298	11446	4.51e-17	89.7
+frag_10627_NZ_CP037943.1	NC_016160	73.154	149	40	0	156	304	11347	11495	4.51e-17	89.7
+frag_10627_NZ_CP037943.1	NC_002167	73.154	149	40	0	156	304	11347	11495	4.51e-17	89.7
+frag_10627_NZ_CP037943.1	NC_009514	72.857	140	38	0	118	257	12385	12524	6.70e-15	82.4
+frag_10627_NZ_CP037943.1	NC_019716	84.722	72	11	0	190	261	12256	12327	2.34e-14	81.5
+frag_10627_NZ_CP037943.1	NC_010392	73.643	129	32	2	124	251	14990	14863	3.47e-12	73.4
+frag_10627_NZ_CP037943.1	NC_010393	71.533	137	39	0	124	260	30457	30593	1.21e-11	72.5
+frag_10627_NZ_CP037943.1	KF772233	80.000	75	15	0	204	278	2633	2707	1.48e-10	68.9
+# BLASTN 2.9.0+
+# Query: frag_5478_NZ_CP046045.1 Fragment 5478 of NZ_CP046045.1 Acinetobacter towneri strain 19110F47 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_28_NZ_CP017422.1 Fragment 28 of NZ_CP017422.1 Arthrobacter sp. ZXY-2 plasmid pZXY21, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2402_NZ_CP009930.1 Fragment 2402 of NZ_CP009930.1 Burkholderia mallei strain FMH chromosome 2, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_10301_NZ_CP045298.1 Fragment 10301 of NZ_CP045298.1 Paenibacillus brasilensis strain KACC 13842 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7304_NZ_CP063759.1 Fragment 7304 of NZ_CP063759.1 Klebsiella pneumoniae strain FRPDR chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_918_NZ_CP065956.1 Fragment 918 of NZ_CP065956.1 Methylacidiphilum sp. IT5 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3400_NZ_CP015938.1 Fragment 3400 of NZ_CP015938.1 Legionella pneumophila strain C7_O chromosome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_3400_NZ_CP015938.1	NC_023743	93.103	29	1	1	17	45	13023	12996	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_4893_NZ_CP070501.1 Fragment 4893 of NZ_CP070501.1 Agrococcus sp. Marseille-Q4369 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1286_NZ_CP009923.1 Fragment 1286 of NZ_CP009923.1 Chlamydia trachomatis strain L2b/CS19/08 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_416_NZ_CP068157.1 Fragment 416 of NZ_CP068157.1 Corynebacterium striatum strain FDAARGOS_1116 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3209_NZ_CP071869.1 Fragment 3209 of NZ_CP071869.1 Polaribacter sp. SM13 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_347_NZ_CP035189.1 Fragment 347 of NZ_CP035189.1 Bacillus licheniformis strain SRCM103914 plasmid unnamed1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7644_NZ_CP063003.1 Fragment 7644 of NZ_CP063003.1 Klebsiella pneumoniae strain CriePir154 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4795_NZ_CP046752.1 Fragment 4795 of NZ_CP046752.1 Photobacterium damselae strain 9046-81 chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_5591_NZ_CP063708.1 Fragment 5591 of NZ_CP063708.1 Salmonella enterica subsp. enterica serovar Enteritidis strain A1636 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3402_NZ_CP049703.1 Fragment 3402 of NZ_CP049703.1 Parageobacillus toebii NBRC 107807 strain DSM 14590 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1819_NZ_LT962938.1 Fragment 1819 of NZ_LT962938.1 Brucella melitensis isolate 1 chromosome 1
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1655_NZ_CP010827.1 Fragment 1655 of NZ_CP010827.1 Corynebacterium singulare strain IBS B52218 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_433_NZ_CP039250.1 Fragment 433 of NZ_CP039250.1 Sphingopyxis sp. PAMC25046 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_433_NZ_CP039250.1	KJ743987	93.103	29	2	0	251	279	736	764	0.002	44.6
+# BLASTN 2.9.0+
+# Query: frag_6483_NZ_CP017593.1 Fragment 6483 of NZ_CP017593.1 Mycobacterium tuberculosis strain Beijing-like/35049 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1644_NC_014212.1 Fragment 1644 of NC_014212.1 Meiothermus silvanus DSM 9946, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_1644_NC_014212.1	JN412590	78.333	60	13	0	333	392	60088	60147	3.96e-05	50.9
+frag_1644_NC_014212.1	6666666.17469	78.333	60	13	0	333	392	58328	58387	3.96e-05	50.9
+frag_1644_NC_014212.1	6666666.3709	76.271	59	14	0	333	391	58534	58592	0.002	44.6
+# BLASTN 2.9.0+
+# Query: frag_4883_NC_010473.1 Fragment 4883 of NC_010473.1 Escherichia coli str. K-12 substr. DH10B, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_4883_NC_010473.1	JQ512844	90.625	32	2	1	11	41	42085	42054	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_4067_NZ_LR134474.1 Fragment 4067 of NZ_LR134474.1 Kurthia zopfii strain NCTC404 chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 9 hits found
+frag_4067_NZ_LR134474.1	NC_020199	83.333	42	6	1	301	341	8777	8736	0.021	41.9
+frag_4067_NZ_LR134474.1	NC_011612	83.333	42	6	1	301	341	6998	6957	0.021	41.9
+frag_4067_NZ_LR134474.1	NC_007054	83.333	42	6	1	301	341	32163	32122	0.021	41.9
+frag_4067_NZ_LR134474.1	NC_007053	83.333	42	6	1	301	341	31262	31221	0.021	41.9
+frag_4067_NZ_LR134474.1	NC_022758	83.784	37	6	0	301	337	32004	31968	0.021	41.0
+frag_4067_NZ_LR134474.1	NC_021323	83.784	37	6	0	301	337	8120	8084	0.021	41.0
+frag_4067_NZ_LR134474.1	NC_019513	83.784	37	6	0	301	337	13787	13823	0.021	41.0
+frag_4067_NZ_LR134474.1	JX174275	83.784	37	6	0	301	337	34579	34543	0.021	41.0
+frag_4067_NZ_LR134474.1	6666666.43267	100.000	22	0	0	189	210	49877	49898	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_1048_NZ_CP017617.1 Fragment 1048 of NZ_CP017617.1 Salmonella enterica subsp. enterica serovar Typhimurium strain 22495 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_808_NZ_LT906440.1 Fragment 808 of NZ_LT906440.1 Neisseria gonorrhoeae strain NCTC13798 chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_6804_NC_010002.1 Fragment 6804 of NC_010002.1 Delftia acidovorans SPH-1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4332_NZ_CP064049.1 Fragment 4332 of NZ_CP064049.1 Enterococcus faecium strain VRE3370 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_4332_NZ_CP064049.1	NC_013696	71.429	504	136	5	1	500	939	440	9.29e-64	245
+frag_4332_NZ_CP064049.1	GQ478082	68.444	225	71	0	276	500	17929	17705	5.50e-16	86.9
+frag_4332_NZ_CP064049.1	GQ478087	67.662	201	65	0	299	499	19889	19689	4.23e-11	70.7
+# BLASTN 2.9.0+
+# Query: frag_2946_NZ_CP055233.1 Fragment 2946 of NZ_CP055233.1 Bradyrhizobium diazoefficiens strain 113-2 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4263_NZ_CP009550.1 Fragment 4263 of NZ_CP009550.1 Burkholderia pseudomallei PB08298010 chromosome II, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_451_NC_013940.1 Fragment 451 of NC_013940.1 Deferribacter desulfuricans SSM1 megaplasmid pDF308, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_451_NC_013940.1	NC_021073	96.296	27	1	0	85	111	24665	24639	0.002	45.5
+frag_451_NC_013940.1	NC_015254	100.000	22	0	0	26	47	19560	19539	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_3676_NZ_CP056245.1 Fragment 3676 of NZ_CP056245.1 Citrobacter freundii strain RHBSTW-00915 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+frag_3676_NZ_CP056245.1	NC_022918	90.000	30	3	0	100	129	71016	71045	0.021	41.9
+frag_3676_NZ_CP056245.1	NC_019726	90.000	30	3	0	100	129	20072	20043	0.021	41.9
+frag_3676_NZ_CP056245.1	NC_019448	90.000	30	3	0	100	129	68273	68302	0.021	41.9
+frag_3676_NZ_CP056245.1	EU418428	90.000	30	3	0	100	129	67760	67789	0.021	41.9
+frag_3676_NZ_CP056245.1	AY176327	90.000	30	3	0	100	129	60703	60732	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_7560_NZ_CP010595.1 Fragment 7560 of NZ_CP010595.1 Phaeobacter inhibens strain P10 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_505_NZ_CP038849.1 Fragment 505 of NZ_CP038849.1 Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:- strain PNCS014866 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7035_NZ_LS483457.1 Fragment 7035 of NZ_LS483457.1 Salmonella enterica subsp. enterica serovar Sundsvall strain NCTC9787 chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1220_NZ_CP019306.1 Fragment 1220 of NZ_CP019306.1 Fusobacterium necrophorum subsp. funduliforme strain F1260 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_736_NC_007294.1 Fragment 736 of NC_007294.1 Mycoplasma synoviae 53, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_736_NC_007294.1	NC_023719	75.410	61	15	0	354	414	482382	482322	0.006	43.7
+frag_736_NC_007294.1	NC_016656	90.909	33	2	1	312	344	2670	2639	0.006	43.7
+# BLASTN 2.9.0+
+# Query: frag_5426_NZ_CP046749.1 Fragment 5426 of NZ_CP046749.1 Vibrio cholerae strain 2015V-1118 chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_19_NC_009669.1 Fragment 19 of NC_009669.1 Ochrobactrum anthropi ATCC 49188 plasmid pOANT01, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_307_NZ_CP022946.1 Fragment 307 of NZ_CP022946.1 Francisella orientalis strain FNO135 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_307_NZ_CP022946.1	AP013551	90.000	30	3	0	252	281	16387	16358	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_3439_NZ_CP019981.1 Fragment 3439 of NZ_CP019981.1 Pediococcus inopinatus strain DSM 20285 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_3439_NZ_CP019981.1	NC_019489	89.474	38	3	1	406	443	26673	26637	1.38e-04	48.2
+frag_3439_NZ_CP019981.1	NC_006936	93.333	30	2	0	139	168	32333	32362	4.82e-04	46.4
+# BLASTN 2.9.0+
+# Query: frag_7381_NZ_CP018027.1 Fragment 7381 of NZ_CP018027.1 Alteromonas mediterranea strain CP49 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1913_NZ_CP043382.1 Fragment 1913 of NZ_CP043382.1 Enterobacter hormaechei subsp. xiangfangensis strain WCHEX045001 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_702_NZ_CP046311.1 Fragment 702 of NZ_CP046311.1 Lactobacillus crispatus strain FDAARGOS_743 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_8_NZ_CP009415.1 Fragment 8 of NZ_CP009415.1 Candidatus Izimaplasma sp. HR1 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_578_NZ_CP023970.1 Fragment 578 of NZ_CP023970.1 Staphylococcus lugdunensis strain FDAARGOS_381 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2654_NZ_LR134264.1 Fragment 2654 of NZ_LR134264.1 Staphylococcus simulans strain NCTC7944 chromosome 1
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_2654_NZ_LR134264.1	NC_006882	88.571	35	1	1	105	139	24873	24842	0.002	44.6
+frag_2654_NZ_LR134264.1	NC_020851	78.846	52	10	1	237	288	87196	87146	0.021	41.9
+frag_2654_NZ_LR134264.1	NC_019511	80.952	42	8	0	244	285	131856	131897	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_322_NZ_CP024073.1 Fragment 322 of NZ_CP024073.1 Helicobacter pylori strain 7.13_R1c chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_8138_NZ_CP009771.1 Fragment 8138 of NZ_CP009771.1 Klebsiella pneumoniae subsp. pneumoniae strain KPNIH33 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_8138_NZ_CP009771.1	NC_011273	84.211	38	6	0	276	313	152396	152359	0.006	42.8
+frag_8138_NZ_CP009771.1	NC_011273	81.818	44	2	2	281	321	30581	30541	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_5918_NC_017171.2 Fragment 5918 of NC_017171.2 Acinetobacter baumannii MDR-ZJ06, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_6241_NZ_CP031972.1 Fragment 6241 of NZ_CP031972.1 Acinetobacter haemolyticus strain AN59 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_6241_NZ_CP031972.1	NC_020847	96.000	25	1	0	373	397	37046	37022	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_1082_NZ_LS483508.1 Fragment 1082 of NZ_LS483508.1 Mycoplasma mycoides subsp. capri strain GM12 isolate synthetic chromosome omosome, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_1082_NZ_LS483508.1	NC_009812	77.419	62	13	1	166	226	23430	23369	4.82e-04	46.4
+frag_1082_NZ_LS483508.1	AP013496	82.979	47	6	2	416	460	2131	2177	0.006	42.8
+frag_1082_NZ_LS483508.1	NC_024387	77.049	61	12	2	166	226	22928	22870	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_4550_NZ_CP034562.1 Fragment 4550 of NZ_CP034562.1 Flammeovirga pectinis strain L12M1 chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1776_NC_008600.1 Fragment 1776 of NC_008600.1 Bacillus thuringiensis str. Al Hakam, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_440_NZ_CP047405.1 Fragment 440 of NZ_CP047405.1 Escherichia coli strain MS6193 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4239_NZ_CP020562.1 Fragment 4239 of NZ_CP020562.1 Halomonas sp. GT chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_6410_NZ_LT827010.1 Fragment 6410 of NZ_LT827010.1 Actinoplanes sp. SE50/110 isolate ACP50 chromosome I, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3198_NZ_CP058566.2 Fragment 3198 of NZ_CP058566.2 Dehalogenimonas sp. GP chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1373_NZ_CP009239.1 Fragment 1373 of NZ_CP009239.1 Cellulophaga lytica strain HI1 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_4927_NZ_LR134201.1 Fragment 4927 of NZ_LR134201.1 Cedecea lapagei strain NCTC11466 chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_10438_NZ_CP008742.1 Fragment 10438 of NZ_CP008742.1 Pseudomonas savastanoi pv. savastanoi NCPPB 3335 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+frag_10438_NZ_CP008742.1	NC_022063	85.714	35	5	0	383	417	1696	1730	0.021	41.9
+frag_10438_NZ_CP008742.1	NC_019408	86.111	36	2	1	262	294	30620	30655	0.021	41.9
+frag_10438_NZ_CP008742.1	6666666.3740	80.000	45	9	0	27	71	12591	12547	0.021	41.9
+frag_10438_NZ_CP008742.1	NC_006820	83.784	37	6	0	462	498	23427	23391	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_1807_NZ_CP050124.1 Fragment 1807 of NZ_CP050124.1 Rhodococcus erythropolis strain KB1 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_799_NZ_CP039908.1 Fragment 799 of NZ_CP039908.1 Agrobacterium tumefaciens strain CFBP6624 chromosome linear, complete sequence
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_799_NZ_CP039908.1	NC_010342	90.909	33	3	0	69	101	7015	6983	4.82e-04	47.3
+# BLASTN 2.9.0+
+# Query: frag_3902_NZ_CP019624.1 Fragment 3902 of NZ_CP019624.1 Listeria monocytogenes strain 10-092876-1016 LM11 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_5374_NZ_CP022794.1 Fragment 5374 of NZ_CP022794.1 Ralstonia solanacearum strain SL2330 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1304_NZ_CP018867.1 Fragment 1304 of NZ_CP018867.1 Lactobacillus alimentarius DSM 20249 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2121_NZ_CP021644.1 Fragment 2121 of NZ_CP021644.1 Glaesserella parasuis 29755 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_2121_NZ_CP021644.1	NC_014036	83.784	37	6	0	30	66	110652	110616	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_4160_NZ_CP051468.1 Fragment 4160 of NZ_CP051468.1 Cereibacter sphaeroides strain CH10 chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_769_NZ_CP019323.1 Fragment 769 of NZ_CP019323.1 Lactobacillus allii strain WiKim39 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+frag_769_NZ_CP019323.1	NC_019726	88.235	34	3	1	334	366	66504	66471	0.021	41.0
+frag_769_NZ_CP019323.1	EU418428	88.235	34	3	1	334	366	20746	20779	0.021	41.0
+frag_769_NZ_CP019323.1	AY176327	88.235	34	3	1	334	366	13696	13729	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_1211_NZ_CP032626.1 Fragment 1211 of NZ_CP032626.1 Apilactobacillus bombintestini strain BHWM-4 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_11543_NZ_CP017149.1 Fragment 11543 of NZ_CP017149.1 Pseudomonas aeruginosa strain ATCC 15692 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+frag_11543_NZ_CP017149.1	6666666.3781	84.615	39	3	1	39	74	22966	22928	0.006	42.8
+frag_11543_NZ_CP017149.1	NC_019923	100.000	22	0	0	353	374	11562	11583	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_4512_NC_014924.1 Fragment 4512 of NC_014924.1 Pseudoxanthomonas suwonensis 11-1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7011_NZ_CP047146.1 Fragment 7011 of NZ_CP047146.1 Streptomyces sp. GS7 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_7011_NZ_CP047146.1	NC_006552	81.250	48	6	2	249	293	59892	59939	0.021	41.0
+# BLASTN 2.9.0+
+# Query: frag_8907_NZ_CP042219.1 Fragment 8907 of NZ_CP042219.1 Pandoraea pnomenusa strain TF-18 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_3937_NZ_LR890710.1 Fragment 3937 of NZ_LR890710.1 Klebsiella pneumoniae isolate KSB2_9B chromosome 1, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2185_NZ_CP026692.1 Fragment 2185 of NZ_CP026692.1 Nostoc sp. 'Lobaria pulmonaria (5183) cyanobiont' strain 5183 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1231_NC_007644.1 Fragment 1231 of NC_007644.1 Moorella thermoacetica ATCC 39073, complete sequence
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1295_NZ_LR595897.1 Fragment 1295 of NZ_LR595897.1 Burkholderia pseudomallei isolate UKMD286 chromosome 2
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_1740_NZ_CP062945.1 Fragment 1740 of NZ_CP062945.1 Bifidobacterium longum subsp. longum strain JCM 11340 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_7027_NZ_CP050762.1 Fragment 7027 of NZ_CP050762.1 Salmonella enterica subsp. enterica serovar Indiana strain SI115 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: frag_2947_NZ_CP041772.1 Fragment 2947 of NZ_CP041772.1 Pseudomonas aeruginosa strain 243931 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_2947_NZ_CP041772.1	NC_005263	92.857	28	2	0	143	170	22771	22798	0.006	42.8
+# BLASTN 2.9.0+
+# Query: frag_5566_NZ_CP012013.1 Fragment 5566 of NZ_CP012013.1 Staphylococcus aureus subsp. aureus strain Be62 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+frag_5566_NZ_CP012013.1	NC_019782	96.000	25	1	0	183	207	4088	4112	0.021	41.9
+# BLASTN 2.9.0+
+# Query: frag_846_NZ_CP022022.1 Fragment 846 of NZ_CP022022.1 Capnocytophaga endodontalis strain ChDC OS43 chromosome, complete genome
+# Database: ./database/ALL_140821_hr
+# 0 hits found
+# BLAST processed 200 queries
